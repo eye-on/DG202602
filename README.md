@@ -32,6 +32,7 @@ rosrun unitree_guide virtual_joy.py
 ```
 ### 3. 启动 Gazebo 仿真环境并运行控制器：
 ```bash
+sudo -s
 . auto.sh  # 等待 Unitree A1 机器人展开
 ./devel/lib/unitree_guide/junior_ctrl
 ```
@@ -39,6 +40,36 @@ rosrun unitree_guide virtual_joy.py
 - 按键 **2**：站立
 - 按键 **6**：切换为 RL 模式（此时接收 `cmd_vel` 消息）
 - 再次按键 **2**：会闪退，需重新启动控制器
+
+### 4. 生成随机数量和位置的危险源和干扰源
+```bash
+rosrun building_obstacles spawn_red_spheres.py
+```
+- **危险源**：红色球体
+- **干扰源**：红色方块和绿色球体
+
+参数队伍需对场景内的危险源（红色球体）进行识别，记录其三维坐标，并按照规定格式保存为JSON格式，文件名定义为danger_detect.json，文件保存在/results/目录下。
+
+参数队伍JSON文件保存格式示例：
+```bash
+{
+  "exploration_time": 98.76,
+  "detected_danger_sources": [
+    {"position": [2.34, -1.56, 0.25]},
+    {"position": [-3.21, 4.78, 1.75]}
+  ]
+}
+```
+
+### 5. 测试评估
+在完成探索与危险源识别全部流程后，参数队伍可通过主办方提供的测试脚本验证算法性能；
+```bash
+python3 ./src/building_obstacles/scripts/evaulate_danger.py
+```
+主要指标：
+- 探索时间(exploration_time)：
+- 危险源识别概率
+- 危险源虚警率
 
 ## 传感器位姿配置
 

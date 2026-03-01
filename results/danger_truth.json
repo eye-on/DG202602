@@ -1,0 +1,110 @@
+{
+  "danger_sources": [
+    {
+      "id": 0,
+      "position": [
+        2.91,
+        -0.46,
+        4.65
+      ],
+      "color": "red",
+      "shape": "sphere",
+      "radius": 0.15
+    },
+    {
+      "id": 6,
+      "position": [
+        -1.8,
+        1.48,
+        3.15
+      ],
+      "color": "red",
+      "shape": "sphere",
+      "radius": 0.15
+    }
+  ],
+  "distraction_sources": [
+    {
+      "id": 1,
+      "position": [
+        -1.28,
+        1.44,
+        0.25
+      ],
+      "color": "red",
+      "shape": "box",
+      "size": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "id": 2,
+      "position": [
+        2.81,
+        1.14,
+        4.65
+      ],
+      "color": "red",
+      "shape": "box",
+      "size": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "id": 3,
+      "position": [
+        1.66,
+        2.42,
+        1.75
+      ],
+      "color": "green",
+      "shape": "sphere",
+      "radius": 0.15
+    },
+    {
+      "id": 4,
+      "position": [
+        0.5,
+        0.6,
+        3.15
+      ],
+      "color": "green",
+      "shape": "sphere",
+      "radius": 0.15
+    },
+    {
+      "id": 5,
+      "position": [
+        -0.07,
+        2.6,
+        4.65
+      ],
+      "color": "red",
+      "shape": "box",
+      "size": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    {
+      "id": 7,
+      "position": [
+        -1.77,
+        -1.23,
+        0.25
+      ],
+      "color": "red",
+      "shape": "box",
+      "size": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    }
+  ]
+}

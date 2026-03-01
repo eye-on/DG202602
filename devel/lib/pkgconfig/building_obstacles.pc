@@ -1,0 +1,8 @@
+prefix=/home/ros/Guoyulun/SimEnv/devel
+
+Name: building_obstacles
+Description: Description of building_obstacles
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
