@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/SimEnv/src/uav_simulator/so3_control/include/so3_control/SO3Control.h
+/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/so3_control/include/so3_control/SO3Control.h
 Eigen/Geometry
 -
 
-/home/ros/Guoyulun/SimEnv/src/uav_simulator/so3_control/src/SO3Control.cpp
+/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/so3_control/src/SO3Control.cpp
 iostream
 -
 so3_control/SO3Control.h

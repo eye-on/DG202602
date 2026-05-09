@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/share/common-lisp/ros/multi_map_server/msg/MultiOccupancyGrid.lisp"
-  "/home/ros/Guoyulun/SimEnv/devel/share/common-lisp/ros/multi_map_server/msg/MultiSparseMap3D.lisp"
-  "/home/ros/Guoyulun/SimEnv/devel/share/common-lisp/ros/multi_map_server/msg/SparseMap3D.lisp"
-  "/home/ros/Guoyulun/SimEnv/devel/share/common-lisp/ros/multi_map_server/msg/VerticalOccupancyGridList.lisp"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/share/common-lisp/ros/multi_map_server/msg/MultiOccupancyGrid.lisp"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/share/common-lisp/ros/multi_map_server/msg/MultiSparseMap3D.lisp"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/share/common-lisp/ros/multi_map_server/msg/SparseMap3D.lisp"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/share/common-lisp/ros/multi_map_server/msg/VerticalOccupancyGridList.lisp"
   "CMakeFiles/multi_map_server_generate_messages_lisp"
 )
 

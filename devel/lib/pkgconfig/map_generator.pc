@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/SimEnv/devel
+prefix=/home/ros/Guoyulun/Competition/SimEnv/devel
 
 Name: map_generator
 Description: Description of map_generator

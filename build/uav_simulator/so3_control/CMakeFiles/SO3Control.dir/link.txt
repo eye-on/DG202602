@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -std=c++11 -O3 -Wall -g  -shared -Wl,-soname,libSO3Control.so -o /home/ros/Guoyulun/SimEnv/devel/lib/libSO3Control.so CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o   -L/home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/cmake_utils/lib/mosek8 
+/usr/bin/c++ -fPIC -std=c++11 -O3 -Wall -g  -shared -Wl,-soname,libSO3Control.so -o /home/ros/Guoyulun/Competition/SimEnv/devel/lib/libSO3Control.so CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o   -L/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/cmake_utils/lib/mosek8 

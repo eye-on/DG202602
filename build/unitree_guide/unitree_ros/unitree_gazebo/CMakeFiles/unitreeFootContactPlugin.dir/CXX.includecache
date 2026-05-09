@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc
+/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc
 string
 -
 gazebo/common/Events.hh

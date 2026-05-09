@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/draw_force_plugin.cc
+/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/draw_force_plugin.cc
 ignition/math/Color.hh
 -
 gazebo/common/Events.hh
@@ -20,13 +20,13 @@ gazebo/common/Plugin.hh
 ros/ros.h
 -
 gazebo/rendering/DynamicLines.hh
-/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/gazebo/rendering/DynamicLines.hh
+/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/gazebo/rendering/DynamicLines.hh
 gazebo/rendering/RenderTypes.hh
-/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/gazebo/rendering/RenderTypes.hh
+/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/gazebo/rendering/RenderTypes.hh
 gazebo/rendering/Visual.hh
-/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/gazebo/rendering/Visual.hh
+/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/gazebo/rendering/Visual.hh
 gazebo/rendering/Scene.hh
-/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/gazebo/rendering/Scene.hh
+/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/gazebo/rendering/Scene.hh
 ros/ros.h
 -
 boost/bind.hpp

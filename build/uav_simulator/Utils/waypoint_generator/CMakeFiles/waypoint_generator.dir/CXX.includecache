@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/waypoint_generator/src/sample_waypoints.h
+/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/waypoint_generator/src/sample_waypoints.h
 ros/ros.h
 -
 tf/tf.h
@@ -14,7 +14,7 @@ tf/tf.h
 nav_msgs/Path.h
 -
 
-/home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp
+/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp
 iostream
 -
 ros/ros.h
@@ -32,7 +32,7 @@ geometry_msgs/Vector3.h
 nav_msgs/Path.h
 -
 sample_waypoints.h
-/home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/waypoint_generator/src/sample_waypoints.h
+/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/waypoint_generator/src/sample_waypoints.h
 vector
 -
 deque

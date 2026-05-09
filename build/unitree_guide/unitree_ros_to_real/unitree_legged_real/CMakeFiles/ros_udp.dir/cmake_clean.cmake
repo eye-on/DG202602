@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/unitree_legged_real/ros_udp"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/unitree_legged_real/ros_udp.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_legged_real/ros_udp"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_legged_real/ros_udp.pdb"
   "CMakeFiles/ros_udp.dir/src/exe/ros_udp.cpp.o"
 )
 

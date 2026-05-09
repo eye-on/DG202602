@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "roscpp;quadrotor_msgs;uav_utils".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "so3_quadrotor_simulator"
-PROJECT_SPACE_DIR = "/home/ros/Guoyulun/SimEnv/install"
+PROJECT_SPACE_DIR = "/home/ros/Guoyulun/Competition/SimEnv/install"
 PROJECT_VERSION = "0.0.0"

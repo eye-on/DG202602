@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/include/unitree_guide/CustomMsg.h"
-  "/home/ros/Guoyulun/SimEnv/devel/include/unitree_guide/CustomPoint.h"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/include/unitree_guide/CustomMsg.h"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/include/unitree_guide/CustomPoint.h"
   "CMakeFiles/unitree_guide_generate_messages_cpp"
 )
 

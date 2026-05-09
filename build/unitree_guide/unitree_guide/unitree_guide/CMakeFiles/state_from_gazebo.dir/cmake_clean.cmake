@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/unitree_guide/state_from_gazebo"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/unitree_guide/state_from_gazebo.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_guide/state_from_gazebo"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_guide/state_from_gazebo.pdb"
   "CMakeFiles/state_from_gazebo.dir/src/state_from_gazebo.cpp.o"
 )
 

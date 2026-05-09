@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/multi_map_server/multi_map_visualization"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/multi_map_server/multi_map_visualization.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/multi_map_server/multi_map_visualization"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/multi_map_server/multi_map_visualization.pdb"
   "CMakeFiles/multi_map_visualization.dir/src/multi_map_visualization.cc.o"
 )
 

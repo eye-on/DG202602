@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/SimEnv/devel
+prefix=/home/ros/Guoyulun/Competition/SimEnv/devel
 
 Name: cmake_utils
 Description: Description of cmake_utils

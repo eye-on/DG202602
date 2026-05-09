@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/SimEnv/devel
+prefix=/home/ros/Guoyulun/Competition/SimEnv/devel
 
 Name: unitree_controller
 Description: Description of unitree_controller

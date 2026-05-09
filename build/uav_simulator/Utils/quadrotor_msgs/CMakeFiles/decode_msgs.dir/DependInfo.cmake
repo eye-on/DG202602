@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/quadrotor_msgs/src/decode_msgs.cpp" "/home/ros/Guoyulun/SimEnv/build/uav_simulator/Utils/quadrotor_msgs/CMakeFiles/decode_msgs.dir/src/decode_msgs.cpp.o"
+  "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/quadrotor_msgs/src/decode_msgs.cpp" "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/quadrotor_msgs/CMakeFiles/decode_msgs.dir/src/decode_msgs.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,10 +18,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ros/Guoyulun/SimEnv/devel/include"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/quadrotor_msgs/include"
+  "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/quadrotor_msgs/include"
   "/usr/include/eigen3"
   )
 

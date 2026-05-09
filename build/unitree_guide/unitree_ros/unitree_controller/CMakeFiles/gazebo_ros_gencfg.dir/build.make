@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/SimEnv/src
+CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/SimEnv/build
+CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
 
 # Utility rule file for gazebo_ros_gencfg.
 
@@ -63,10 +63,10 @@ unitree_guide/unitree_ros/unitree_controller/CMakeFiles/gazebo_ros_gencfg.dir/bu
 .PHONY : unitree_guide/unitree_ros/unitree_controller/CMakeFiles/gazebo_ros_gencfg.dir/build
 
 unitree_guide/unitree_ros/unitree_controller/CMakeFiles/gazebo_ros_gencfg.dir/clean:
-	cd /home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_ros_gencfg.dir/cmake_clean.cmake
+	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_ros_gencfg.dir/cmake_clean.cmake
 .PHONY : unitree_guide/unitree_ros/unitree_controller/CMakeFiles/gazebo_ros_gencfg.dir/clean
 
 unitree_guide/unitree_ros/unitree_controller/CMakeFiles/gazebo_ros_gencfg.dir/depend:
-	cd /home/ros/Guoyulun/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/SimEnv/src /home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/unitree_controller /home/ros/Guoyulun/SimEnv/build /home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_ros/unitree_controller /home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_ros/unitree_controller/CMakeFiles/gazebo_ros_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_controller /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller/CMakeFiles/gazebo_ros_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_guide/unitree_ros/unitree_controller/CMakeFiles/gazebo_ros_gencfg.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/waypoint_generator/waypoint_generator"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/waypoint_generator/waypoint_generator.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/waypoint_generator/waypoint_generator"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/waypoint_generator/waypoint_generator.pdb"
   "CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o"
 )
 

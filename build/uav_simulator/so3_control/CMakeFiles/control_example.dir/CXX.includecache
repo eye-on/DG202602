@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/SimEnv/devel/include/quadrotor_msgs/PositionCommand.h
+/home/ros/Guoyulun/Competition/SimEnv/devel/include/quadrotor_msgs/PositionCommand.h
 string
 -
 vector
@@ -30,7 +30,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Vector3.h
 -
 
-/home/ros/Guoyulun/SimEnv/src/uav_simulator/so3_control/src/control_example.cpp
+/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/so3_control/src/control_example.cpp
 Eigen/Eigen
 -
 quadrotor_msgs/PositionCommand.h

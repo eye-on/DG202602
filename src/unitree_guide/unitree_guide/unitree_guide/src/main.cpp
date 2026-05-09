@@ -5,6 +5,9 @@
 #include <unistd.h>
 #include <csignal>
 #include <sched.h>
+#include <cerrno>
+#include <cmath>
+#include <cstdlib>
 
 #include "control/ControlFrame.h"
 #include "control/CtrlComponents.h"
@@ -41,6 +44,27 @@ void setProcessScheduler()
     }
 }
 
+double readControllerDt()
+{
+    const double defaultDt = 0.002; // 500 Hz, Unitree upstream default.
+    const char *envValue = std::getenv("UNITREE_CTRL_DT");
+    if (envValue == nullptr || envValue[0] == '\0')
+    {
+        return defaultDt;
+    }
+
+    char *end = nullptr;
+    errno = 0;
+    double dt = std::strtod(envValue, &end);
+    if (errno != 0 || end == envValue || *end != '\0' || !std::isfinite(dt) || dt < 0.001 || dt > 0.02)
+    {
+        std::cout << "[WARNING] Invalid UNITREE_CTRL_DT='" << envValue
+                  << "', using default " << defaultDt << "s." << std::endl;
+        return defaultDt;
+    }
+    return dt;
+}
+
 int main(int argc, char **argv)
 {
     /* set real-time process */
@@ -68,7 +92,9 @@ int main(int argc, char **argv)
     ioInter_freedog = new IOFREEDOGSDK();
     CtrlComponents *ctrlComp = new CtrlComponents(ioInter,ioInter_freedog);
     ctrlComp->ctrlPlatform = ctrlPlat;
-    ctrlComp->dt = 0.002; // run at 500hz
+    ctrlComp->dt = readControllerDt();
+    std::cout << "controller dt: " << ctrlComp->dt
+              << " s, frequency: " << 1.0 / ctrlComp->dt << " Hz" << std::endl;
     ctrlComp->running = &running;
 
 #ifdef ROBOT_TYPE_A1

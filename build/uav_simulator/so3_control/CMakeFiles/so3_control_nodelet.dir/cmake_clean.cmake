@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/libso3_control_nodelet.pdb"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/libso3_control_nodelet.so"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so"
   "CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o"
 )
 

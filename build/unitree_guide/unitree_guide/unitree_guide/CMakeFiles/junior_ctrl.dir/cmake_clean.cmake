@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/unitree_guide/junior_ctrl"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/unitree_guide/junior_ctrl.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_guide/junior_ctrl"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_guide/junior_ctrl.pdb"
   "CMakeFiles/junior_ctrl.dir/src/FSM/FSM.cpp.o"
   "CMakeFiles/junior_ctrl.dir/src/FSM/FSMState.cpp.o"
   "CMakeFiles/junior_ctrl.dir/src/FSM/State_BalanceTest.cpp.o"

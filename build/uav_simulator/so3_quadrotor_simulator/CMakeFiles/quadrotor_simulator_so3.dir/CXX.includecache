@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/SimEnv/devel/include/quadrotor_msgs/AuxCommand.h
+/home/ros/Guoyulun/Competition/SimEnv/devel/include/quadrotor_msgs/AuxCommand.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/ros/Guoyulun/SimEnv/devel/include/quadrotor_msgs/SO3Command.h
+/home/ros/Guoyulun/Competition/SimEnv/devel/include/quadrotor_msgs/SO3Command.h
 string
 -
 vector
@@ -46,17 +46,17 @@ geometry_msgs/Quaternion.h
 quadrotor_msgs/AuxCommand.h
 -
 
-/home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/uav_utils/include/uav_utils/geometry_utils.h
+/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/uav_utils/include/uav_utils/geometry_utils.h
 Eigen/Dense
 -
 
-/home/ros/Guoyulun/SimEnv/src/uav_simulator/so3_quadrotor_simulator/include/quadrotor_simulator/Quadrotor.h
+/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/so3_quadrotor_simulator/include/quadrotor_simulator/Quadrotor.h
 Eigen/Core
 -
 boost/array.hpp
 -
 
-/home/ros/Guoyulun/SimEnv/src/uav_simulator/so3_quadrotor_simulator/src/quadrotor_simulator_so3.cpp
+/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/so3_quadrotor_simulator/src/quadrotor_simulator_so3.cpp
 Eigen/Geometry
 -
 nav_msgs/Odometry.h

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/src/check.cpp" "/home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/src/check.cpp.o"
+  "/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/src/check.cpp" "/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/src/check.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/unitree_motor_ctrl"
+  "/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/unitree_motor_ctrl"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

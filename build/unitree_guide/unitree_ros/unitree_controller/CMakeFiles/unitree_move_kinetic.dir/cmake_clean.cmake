@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/unitree_controller/unitree_move_kinetic"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/unitree_controller/unitree_move_kinetic.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_controller/unitree_move_kinetic"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_controller/unitree_move_kinetic.pdb"
   "CMakeFiles/unitree_move_kinetic.dir/src/move_publisher.cpp.o"
 )
 

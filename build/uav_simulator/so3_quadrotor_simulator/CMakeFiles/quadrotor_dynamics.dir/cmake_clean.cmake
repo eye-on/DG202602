@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/libquadrotor_dynamics.pdb"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/libquadrotor_dynamics.so"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libquadrotor_dynamics.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libquadrotor_dynamics.so"
   "CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o"
 )
 

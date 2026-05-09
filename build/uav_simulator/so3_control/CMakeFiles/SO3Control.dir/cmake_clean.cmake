@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/libSO3Control.pdb"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/libSO3Control.so"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libSO3Control.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libSO3Control.so"
   "CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o"
 )
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ros/Guoyulun/SimEnv/src/Mid360_imu_sim/src/livox_ode_multiray_shape.cpp" "/home/ros/Guoyulun/SimEnv/build/Mid360_imu_sim/CMakeFiles/livox_laser_simulation.dir/src/livox_ode_multiray_shape.cpp.o"
-  "/home/ros/Guoyulun/SimEnv/src/Mid360_imu_sim/src/livox_points_plugin.cpp" "/home/ros/Guoyulun/SimEnv/build/Mid360_imu_sim/CMakeFiles/livox_laser_simulation.dir/src/livox_points_plugin.cpp.o"
+  "/home/ros/Guoyulun/Competition/SimEnv/src/Mid360_imu_sim/src/livox_ode_multiray_shape.cpp" "/home/ros/Guoyulun/Competition/SimEnv/build/Mid360_imu_sim/CMakeFiles/livox_laser_simulation.dir/src/livox_ode_multiray_shape.cpp.o"
+  "/home/ros/Guoyulun/Competition/SimEnv/src/Mid360_imu_sim/src/livox_points_plugin.cpp" "/home/ros/Guoyulun/Competition/SimEnv/build/Mid360_imu_sim/CMakeFiles/livox_laser_simulation.dir/src/livox_points_plugin.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -35,7 +35,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/ignition/common3"
   "/usr/include/ignition/fuel_tools4"
   "/usr/include/gazebo-11/gazebo"
-  "/home/ros/Guoyulun/SimEnv/src/Mid360_imu_sim/include"
+  "/home/ros/Guoyulun/Competition/SimEnv/src/Mid360_imu_sim/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

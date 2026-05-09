@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/Guoyulun/SimEnv/src/building_obstacles
+# Install script for directory: /home/ros/Guoyulun/Competition/SimEnv/src/building_obstacles
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/SimEnv/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/Competition/SimEnv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,37 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/build/building_obstacles/catkin_generated/installspace/building_obstacles.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles/catkin_generated/installspace/building_obstacles.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/building_obstacles/cmake" TYPE FILE FILES
-    "/home/ros/Guoyulun/SimEnv/build/building_obstacles/catkin_generated/installspace/building_obstaclesConfig.cmake"
-    "/home/ros/Guoyulun/SimEnv/build/building_obstacles/catkin_generated/installspace/building_obstaclesConfig-version.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles/catkin_generated/installspace/building_obstaclesConfig.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles/catkin_generated/installspace/building_obstaclesConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/building_obstacles" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/src/building_obstacles/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/building_obstacles" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/src/building_obstacles/package.xml")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/building_obstacles" TYPE PROGRAM FILES "/home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles/catkin_generated/installspace/generate_competition_scene.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/building_obstacles" TYPE PROGRAM FILES "/home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles/catkin_generated/installspace/generate_multi_floor_building.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/building_obstacles" TYPE PROGRAM FILES "/home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles/catkin_generated/installspace/spawn_red_spheres.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/building_obstacles" TYPE PROGRAM FILES "/home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles/catkin_generated/installspace/evaluate_danger.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/building_obstacles" TYPE PROGRAM FILES "/home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles/catkin_generated/installspace/evaulate_danger.py")
 endif()
 

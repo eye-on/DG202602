@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/SimEnv/src
+CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/SimEnv/build
+CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/ros/Guoyulun/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/SimEnv/src /home/ros/Guoyulun/SimEnv/src /home/ros/Guoyulun/SimEnv/build /home/ros/Guoyulun/SimEnv/build /home/ros/Guoyulun/SimEnv/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

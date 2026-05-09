@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/Guoyulun/SimEnv/src/uav_simulator/map_generator
+# Install script for directory: /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/map_generator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/SimEnv/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/Competition/SimEnv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/build/uav_simulator/map_generator/catkin_generated/installspace/map_generator.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/map_generator/catkin_generated/installspace/map_generator.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_generator/cmake" TYPE FILE FILES
-    "/home/ros/Guoyulun/SimEnv/build/uav_simulator/map_generator/catkin_generated/installspace/map_generatorConfig.cmake"
-    "/home/ros/Guoyulun/SimEnv/build/uav_simulator/map_generator/catkin_generated/installspace/map_generatorConfig-version.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/map_generator/catkin_generated/installspace/map_generatorConfig.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/map_generator/catkin_generated/installspace/map_generatorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_generator" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/src/uav_simulator/map_generator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_generator" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/map_generator/package.xml")
 endif()
 

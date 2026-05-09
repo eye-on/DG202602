@@ -67,14 +67,14 @@ set(pose_utils_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(pose_utils_SOURCE_PREFIX /home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/pose_utils)
-  set(pose_utils_DEVEL_PREFIX /home/ros/Guoyulun/SimEnv/devel)
+  set(pose_utils_SOURCE_PREFIX /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/pose_utils)
+  set(pose_utils_DEVEL_PREFIX /home/ros/Guoyulun/Competition/SimEnv/devel)
   set(pose_utils_INSTALL_PREFIX "")
   set(pose_utils_PREFIX ${pose_utils_DEVEL_PREFIX})
 else()
   set(pose_utils_SOURCE_PREFIX "")
   set(pose_utils_DEVEL_PREFIX "")
-  set(pose_utils_INSTALL_PREFIX /home/ros/Guoyulun/SimEnv/install)
+  set(pose_utils_INSTALL_PREFIX /home/ros/Guoyulun/Competition/SimEnv/install)
   set(pose_utils_PREFIX ${pose_utils_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(pose_utils_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/pose_utils/include " STREQUAL " ")
+if(NOT "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/pose_utils/include " STREQUAL " ")
   set(pose_utils_INCLUDE_DIRS "")
-  set(_include_dirs "/home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/pose_utils/include")
+  set(_include_dirs "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/pose_utils/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/pose_utils/include " S
         message(FATAL_ERROR "Project 'pose_utils' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'pose_utils' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/pose_utils/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'pose_utils' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/pose_utils/${idir}'.  ${_report}")
     endif()
     _list_append_unique(pose_utils_INCLUDE_DIRS ${include})
   endforeach()
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ros/Guoyulun/SimEnv/devel/lib;/home/ros/Guoyulun/SimEnv/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ros/Guoyulun/Competition/SimEnv/devel/lib;/home/ros/Guoyulun/Competition/SimEnv/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

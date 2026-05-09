@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/libdecode_msgs.pdb"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/libdecode_msgs.so"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libdecode_msgs.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libdecode_msgs.so"
   "CMakeFiles/decode_msgs.dir/src/decode_msgs.cpp.o"
 )
 

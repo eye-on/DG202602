@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_real/src/exe/control_via_keyboard.cpp
+/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_real/src/exe/control_via_keyboard.cpp
 ros/ros.h
-/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_real/src/exe/ros/ros.h
+/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_real/src/exe/ros/ros.h
 geometry_msgs/Twist.h
 -
 termios.h

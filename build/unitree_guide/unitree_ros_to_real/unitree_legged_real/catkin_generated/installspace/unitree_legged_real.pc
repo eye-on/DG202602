@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/SimEnv/install
+prefix=/home/ros/Guoyulun/Competition/SimEnv/install
 
 Name: unitree_legged_real
 Description: Description of unitree_legged_real

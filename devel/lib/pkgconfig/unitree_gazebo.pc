@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/SimEnv/devel
+prefix=/home/ros/Guoyulun/Competition/SimEnv/devel
 
 Name: unitree_gazebo
 Description: Description of unitree_gazebo

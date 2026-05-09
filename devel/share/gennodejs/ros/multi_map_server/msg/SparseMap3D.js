@@ -12,8 +12,8 @@ const _arrayDeserializer = _deserializer.Array;
 const _finder = _ros_msg_utils.Find;
 const _getByteLength = _ros_msg_utils.getByteLength;
 let VerticalOccupancyGridList = require('./VerticalOccupancyGridList.js');
-let nav_msgs = _finder('nav_msgs');
 let std_msgs = _finder('std_msgs');
+let nav_msgs = _finder('nav_msgs');
 
 //-----------------------------------------------------------
 

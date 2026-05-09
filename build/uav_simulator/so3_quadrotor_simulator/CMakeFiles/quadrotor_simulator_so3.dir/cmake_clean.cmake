@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/so3_quadrotor_simulator/quadrotor_simulator_so3"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/so3_quadrotor_simulator/quadrotor_simulator_so3.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/so3_quadrotor_simulator/quadrotor_simulator_so3"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/so3_quadrotor_simulator/quadrotor_simulator_so3.pdb"
   "CMakeFiles/quadrotor_simulator_so3.dir/src/quadrotor_simulator_so3.cpp.o"
 )
 

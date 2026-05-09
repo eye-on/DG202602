@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/SimEnv/src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp
+/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/local_sensing/src/pointcloud_render_node.cpp
 nav_msgs/Odometry.h
 -
 nav_msgs/Path.h

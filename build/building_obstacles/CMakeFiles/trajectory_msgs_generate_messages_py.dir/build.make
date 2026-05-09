@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/SimEnv/src
+CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/SimEnv/build
+CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
 
 # Utility rule file for trajectory_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build: tr
 .PHONY : building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
 
 building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean:
-	cd /home/ros/Guoyulun/SimEnv/build/building_obstacles && $(CMAKE_COMMAND) -P CMakeFiles/trajectory_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles && $(CMAKE_COMMAND) -P CMakeFiles/trajectory_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_py.dir/clean
 
 building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_py.dir/depend:
-	cd /home/ros/Guoyulun/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/SimEnv/src /home/ros/Guoyulun/SimEnv/src/building_obstacles /home/ros/Guoyulun/SimEnv/build /home/ros/Guoyulun/SimEnv/build/building_obstacles /home/ros/Guoyulun/SimEnv/build/building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/building_obstacles /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles /home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_py.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_guide/unitree_move_base
+# Install script for directory: /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_move_base
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/SimEnv/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/Competition/SimEnv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_guide/unitree_move_base/catkin_generated/installspace/unitree_move_base.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_move_base/catkin_generated/installspace/unitree_move_base.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_move_base/cmake" TYPE FILE FILES
-    "/home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_guide/unitree_move_base/catkin_generated/installspace/unitree_move_baseConfig.cmake"
-    "/home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_guide/unitree_move_base/catkin_generated/installspace/unitree_move_baseConfig-version.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_move_base/catkin_generated/installspace/unitree_move_baseConfig.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_move_base/catkin_generated/installspace/unitree_move_baseConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_move_base" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_guide/unitree_move_base/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_move_base" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_move_base/package.xml")
 endif()
 

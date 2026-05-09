@@ -1,8 +1,35 @@
 # CMake generated Testfile for 
-# Source directory: /home/ros/Guoyulun/SimEnv/src
-# Build directory: /home/ros/Guoyulun/SimEnv/build
+# Source directory: /home/ros/Guoyulun/Competition/SimEnv/src
+# Build directory: /home/ros/Guoyulun/Competition/SimEnv/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("building_generator_core")
+subdirs("building_generator_interfaces")
+subdirs("uav_simulator/Utils/quadrotor_msgs")
+subdirs("unitree_guide/unitree_ros_to_real/unitree_legged_sdk")
+subdirs("unitree_guide/unitree_ros/robots/a1_description")
+subdirs("uav_simulator/Utils/cmake_utils")
+subdirs("uav_simulator/map_generator")
+subdirs("uav_simulator/Utils/pose_utils")
+subdirs("building_obstacles")
+subdirs("building_generator_classic")
+subdirs("Mid360_imu_sim")
+subdirs("uav_simulator/Utils/odom_visualization")
+subdirs("uav_simulator/local_sensing")
+subdirs("uav_simulator/mockamap")
+subdirs("uav_simulator/so3_control")
+subdirs("uav_simulator/Utils/multi_map_server")
+subdirs("uav_simulator/Utils/uav_utils")
+subdirs("uav_simulator/so3_quadrotor_simulator")
+subdirs("unitree_guide/unitree_ros_to_real/unitree_legged_msgs")
+subdirs("unitree_guide/unitree_ros/unitree_legged_control")
+subdirs("unitree_guide/unitree_ros_to_real/unitree_legged_real")
+subdirs("unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl")
+subdirs("uav_simulator/Utils/rviz_plugins")
+subdirs("unitree_guide/unitree_ros/unitree_controller")
+subdirs("unitree_guide/unitree_ros/unitree_gazebo")
 subdirs("unitree_guide/unitree_guide/unitree_guide")
+subdirs("unitree_guide/unitree_guide/unitree_move_base")
+subdirs("uav_simulator/Utils/waypoint_generator")

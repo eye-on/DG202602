@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/SimEnv/install
+prefix=/home/ros/Guoyulun/Competition/SimEnv/install
 
 Name: cmake_utils
 Description: Description of cmake_utils

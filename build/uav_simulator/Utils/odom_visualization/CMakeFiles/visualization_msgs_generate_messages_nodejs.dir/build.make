@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/SimEnv/src
+CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/SimEnv/build
+CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
 
 # Utility rule file for visualization_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ uav_simulator/Utils/odom_visualization/CMakeFiles/visualization_msgs_generate_me
 .PHONY : uav_simulator/Utils/odom_visualization/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
 
 uav_simulator/Utils/odom_visualization/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/ros/Guoyulun/SimEnv/build/uav_simulator/Utils/odom_visualization && $(CMAKE_COMMAND) -P CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/odom_visualization && $(CMAKE_COMMAND) -P CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : uav_simulator/Utils/odom_visualization/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean
 
 uav_simulator/Utils/odom_visualization/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/ros/Guoyulun/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/SimEnv/src /home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/odom_visualization /home/ros/Guoyulun/SimEnv/build /home/ros/Guoyulun/SimEnv/build/uav_simulator/Utils/odom_visualization /home/ros/Guoyulun/SimEnv/build/uav_simulator/Utils/odom_visualization/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/odom_visualization /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/odom_visualization /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/odom_visualization/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uav_simulator/Utils/odom_visualization/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/unitree_controller/unitree_external_force"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/unitree_controller/unitree_external_force.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_controller/unitree_external_force"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_controller/unitree_external_force.pdb"
   "CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o"
 )
 

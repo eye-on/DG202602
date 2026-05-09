@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo
+# Install script for directory: /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/SimEnv/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/Competition/SimEnv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_ros/unitree_gazebo/catkin_generated/installspace/unitree_gazebo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_gazebo/catkin_generated/installspace/unitree_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_gazebo/cmake" TYPE FILE FILES
-    "/home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_ros/unitree_gazebo/catkin_generated/installspace/unitree_gazeboConfig.cmake"
-    "/home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_ros/unitree_gazebo/catkin_generated/installspace/unitree_gazeboConfig-version.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_gazebo/catkin_generated/installspace/unitree_gazeboConfig.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_gazebo/catkin_generated/installspace/unitree_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_gazebo" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_gazebo" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/package.xml")
 endif()
 

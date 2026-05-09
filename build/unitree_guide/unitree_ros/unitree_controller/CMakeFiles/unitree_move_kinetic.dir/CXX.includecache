@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/move_publisher.cpp
+/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/move_publisher.cpp
 ros/ros.h
 -
 gazebo_msgs/ModelState.h

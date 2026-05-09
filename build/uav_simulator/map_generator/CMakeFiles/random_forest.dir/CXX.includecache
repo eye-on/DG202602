@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/SimEnv/src/uav_simulator/map_generator/src/random_forest_sensing.cpp
+/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/map_generator/src/random_forest_sensing.cpp
 pcl/point_cloud.h
 -
 pcl/point_types.h

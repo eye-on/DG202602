@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/share/roseus/ros/unitree_guide/manifest.l"
-  "/home/ros/Guoyulun/SimEnv/devel/share/roseus/ros/unitree_guide/msg/CustomMsg.l"
-  "/home/ros/Guoyulun/SimEnv/devel/share/roseus/ros/unitree_guide/msg/CustomPoint.l"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/share/roseus/ros/unitree_guide/manifest.l"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/share/roseus/ros/unitree_guide/msg/CustomMsg.l"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/share/roseus/ros/unitree_guide/msg/CustomPoint.l"
   "CMakeFiles/unitree_guide_generate_messages_eus"
 )
 

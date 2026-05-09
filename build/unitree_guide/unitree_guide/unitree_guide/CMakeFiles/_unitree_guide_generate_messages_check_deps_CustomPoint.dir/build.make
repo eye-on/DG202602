@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/SimEnv/src
+CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/SimEnv/build
+CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
 
 # Utility rule file for _unitree_guide_generate_messages_check_deps_CustomPoint.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros/Guoyulun/SimEnv/build
 include unitree_guide/unitree_guide/unitree_guide/CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint.dir/progress.make
 
 unitree_guide/unitree_guide/unitree_guide/CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint:
-	cd /home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_guide/unitree_guide && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py unitree_guide /home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg/CustomPoint.msg 
+	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py unitree_guide /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg/CustomPoint.msg 
 
 _unitree_guide_generate_messages_check_deps_CustomPoint: unitree_guide/unitree_guide/unitree_guide/CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint
 _unitree_guide_generate_messages_check_deps_CustomPoint: unitree_guide/unitree_guide/unitree_guide/CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint.dir/build.make
@@ -67,10 +67,10 @@ unitree_guide/unitree_guide/unitree_guide/CMakeFiles/_unitree_guide_generate_mes
 .PHONY : unitree_guide/unitree_guide/unitree_guide/CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint.dir/build
 
 unitree_guide/unitree_guide/unitree_guide/CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint.dir/clean:
-	cd /home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_guide/unitree_guide && $(CMAKE_COMMAND) -P CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint.dir/cmake_clean.cmake
+	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide && $(CMAKE_COMMAND) -P CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint.dir/cmake_clean.cmake
 .PHONY : unitree_guide/unitree_guide/unitree_guide/CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint.dir/clean
 
 unitree_guide/unitree_guide/unitree_guide/CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint.dir/depend:
-	cd /home/ros/Guoyulun/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/SimEnv/src /home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_guide/unitree_guide /home/ros/Guoyulun/SimEnv/build /home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_guide/unitree_guide /home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_guide/unitree_guide/CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide/CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_guide/unitree_guide/unitree_guide/CMakeFiles/_unitree_guide_generate_messages_check_deps_CustomPoint.dir/depend
 

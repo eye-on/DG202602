@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/Guoyulun/SimEnv/src/uav_simulator/mockamap
+# Install script for directory: /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/mockamap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/SimEnv/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/Competition/SimEnv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/build/uav_simulator/mockamap/catkin_generated/installspace/mockamap.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/mockamap/catkin_generated/installspace/mockamap.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mockamap/cmake" TYPE FILE FILES
-    "/home/ros/Guoyulun/SimEnv/build/uav_simulator/mockamap/catkin_generated/installspace/mockamapConfig.cmake"
-    "/home/ros/Guoyulun/SimEnv/build/uav_simulator/mockamap/catkin_generated/installspace/mockamapConfig-version.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/mockamap/catkin_generated/installspace/mockamapConfig.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/mockamap/catkin_generated/installspace/mockamapConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mockamap" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/src/uav_simulator/mockamap/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mockamap" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/mockamap/package.xml")
 endif()
 

@@ -67,14 +67,14 @@ set(a1_description_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(a1_description_SOURCE_PREFIX /home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/robots/a1_description)
-  set(a1_description_DEVEL_PREFIX /home/ros/Guoyulun/SimEnv/devel)
+  set(a1_description_SOURCE_PREFIX /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/robots/a1_description)
+  set(a1_description_DEVEL_PREFIX /home/ros/Guoyulun/Competition/SimEnv/devel)
   set(a1_description_INSTALL_PREFIX "")
   set(a1_description_PREFIX ${a1_description_DEVEL_PREFIX})
 else()
   set(a1_description_SOURCE_PREFIX "")
   set(a1_description_DEVEL_PREFIX "")
-  set(a1_description_INSTALL_PREFIX /home/ros/Guoyulun/SimEnv/install)
+  set(a1_description_INSTALL_PREFIX /home/ros/Guoyulun/Competition/SimEnv/install)
   set(a1_description_PREFIX ${a1_description_INSTALL_PREFIX})
 endif()
 
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ros/Guoyulun/SimEnv/install/lib;/home/ros/Guoyulun/SimEnv/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ros/Guoyulun/Competition/SimEnv/install/lib;/home/ros/Guoyulun/Competition/SimEnv/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

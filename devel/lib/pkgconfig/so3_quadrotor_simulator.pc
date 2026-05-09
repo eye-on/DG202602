@@ -1,8 +1,8 @@
-prefix=/home/ros/Guoyulun/SimEnv/devel
+prefix=/home/ros/Guoyulun/Competition/SimEnv/devel
 
 Name: so3_quadrotor_simulator
 Description: Description of so3_quadrotor_simulator
 Version: 0.0.0
-Cflags: -I/home/ros/Guoyulun/SimEnv/src/uav_simulator/so3_quadrotor_simulator/include
+Cflags: -I/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/so3_quadrotor_simulator/include
 Libs: -L${prefix}/lib 
 Requires: roscpp quadrotor_msgs uav_utils

@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/SimEnv/install
+prefix=/home/ros/Guoyulun/Competition/SimEnv/install
 
 Name: waypoint_generator
 Description: Description of waypoint_generator

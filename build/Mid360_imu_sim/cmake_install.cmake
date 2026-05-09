@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/Guoyulun/SimEnv/src/Mid360_imu_sim
+# Install script for directory: /home/ros/Guoyulun/Competition/SimEnv/src/Mid360_imu_sim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/SimEnv/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/Competition/SimEnv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/build/Mid360_imu_sim/catkin_generated/installspace/livox_laser_simulation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/build/Mid360_imu_sim/catkin_generated/installspace/livox_laser_simulation.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_laser_simulation/cmake" TYPE FILE FILES
-    "/home/ros/Guoyulun/SimEnv/build/Mid360_imu_sim/catkin_generated/installspace/livox_laser_simulationConfig.cmake"
-    "/home/ros/Guoyulun/SimEnv/build/Mid360_imu_sim/catkin_generated/installspace/livox_laser_simulationConfig-version.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/Mid360_imu_sim/catkin_generated/installspace/livox_laser_simulationConfig.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/Mid360_imu_sim/catkin_generated/installspace/livox_laser_simulationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_laser_simulation" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/src/Mid360_imu_sim/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/livox_laser_simulation" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/src/Mid360_imu_sim/package.xml")
 endif()
 

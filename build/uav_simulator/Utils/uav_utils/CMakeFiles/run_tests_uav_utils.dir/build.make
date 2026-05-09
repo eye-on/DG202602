@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/SimEnv/src
+CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/SimEnv/build
+CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
 
 # Utility rule file for run_tests_uav_utils.
 
@@ -63,10 +63,10 @@ uav_simulator/Utils/uav_utils/CMakeFiles/run_tests_uav_utils.dir/build: run_test
 .PHONY : uav_simulator/Utils/uav_utils/CMakeFiles/run_tests_uav_utils.dir/build
 
 uav_simulator/Utils/uav_utils/CMakeFiles/run_tests_uav_utils.dir/clean:
-	cd /home/ros/Guoyulun/SimEnv/build/uav_simulator/Utils/uav_utils && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_uav_utils.dir/cmake_clean.cmake
+	cd /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/uav_utils && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_uav_utils.dir/cmake_clean.cmake
 .PHONY : uav_simulator/Utils/uav_utils/CMakeFiles/run_tests_uav_utils.dir/clean
 
 uav_simulator/Utils/uav_utils/CMakeFiles/run_tests_uav_utils.dir/depend:
-	cd /home/ros/Guoyulun/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/SimEnv/src /home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/uav_utils /home/ros/Guoyulun/SimEnv/build /home/ros/Guoyulun/SimEnv/build/uav_simulator/Utils/uav_utils /home/ros/Guoyulun/SimEnv/build/uav_simulator/Utils/uav_utils/CMakeFiles/run_tests_uav_utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/uav_utils /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/uav_utils /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/uav_utils/CMakeFiles/run_tests_uav_utils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uav_simulator/Utils/uav_utils/CMakeFiles/run_tests_uav_utils.dir/depend
 

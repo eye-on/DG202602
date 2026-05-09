@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/unitree_controller/unitree_servo"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/unitree_controller/unitree_servo.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_controller/unitree_servo"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_controller/unitree_servo.pdb"
   "CMakeFiles/unitree_servo.dir/src/servo.cpp.o"
 )
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -fPIC   -std=gnu++14
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1
 
-CXX_INCLUDES = -I/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/include 
+CXX_INCLUDES = -I/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/include 
 

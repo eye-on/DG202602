@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/SimEnv/devel/lib/libencode_msgs.pdb"
-  "/home/ros/Guoyulun/SimEnv/devel/lib/libencode_msgs.so"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libencode_msgs.pdb"
+  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libencode_msgs.so"
   "CMakeFiles/encode_msgs.dir/src/encode_msgs.cpp.o"
 )
 

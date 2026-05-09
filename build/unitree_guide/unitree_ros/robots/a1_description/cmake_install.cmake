@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/robots/a1_description
+# Install script for directory: /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/robots/a1_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/SimEnv/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/Competition/SimEnv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description/catkin_generated/installspace/a1_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description/catkin_generated/installspace/a1_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/a1_description/cmake" TYPE FILE FILES
-    "/home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description/catkin_generated/installspace/a1_descriptionConfig.cmake"
-    "/home/ros/Guoyulun/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description/catkin_generated/installspace/a1_descriptionConfig-version.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description/catkin_generated/installspace/a1_descriptionConfig.cmake"
+    "/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description/catkin_generated/installspace/a1_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/a1_description" TYPE FILE FILES "/home/ros/Guoyulun/SimEnv/src/unitree_guide/unitree_ros/robots/a1_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/a1_description" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/robots/a1_description/package.xml")
 endif()
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/SimEnv/src
+CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/SimEnv/build
+CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
 
 # Utility rule file for clean_test_results_uav_utils.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros/Guoyulun/SimEnv/build
 include uav_simulator/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/progress.make
 
 uav_simulator/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils:
-	cd /home/ros/Guoyulun/SimEnv/build/uav_simulator/Utils/uav_utils && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/ros/Guoyulun/SimEnv/build/test_results/uav_utils
+	cd /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/uav_utils && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/ros/Guoyulun/Competition/SimEnv/build/test_results/uav_utils
 
 clean_test_results_uav_utils: uav_simulator/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils
 clean_test_results_uav_utils: uav_simulator/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/build.make
@@ -67,10 +67,10 @@ uav_simulator/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/build:
 .PHONY : uav_simulator/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/build
 
 uav_simulator/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/clean:
-	cd /home/ros/Guoyulun/SimEnv/build/uav_simulator/Utils/uav_utils && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_uav_utils.dir/cmake_clean.cmake
+	cd /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/uav_utils && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_uav_utils.dir/cmake_clean.cmake
 .PHONY : uav_simulator/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/clean
 
 uav_simulator/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/depend:
-	cd /home/ros/Guoyulun/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/SimEnv/src /home/ros/Guoyulun/SimEnv/src/uav_simulator/Utils/uav_utils /home/ros/Guoyulun/SimEnv/build /home/ros/Guoyulun/SimEnv/build/uav_simulator/Utils/uav_utils /home/ros/Guoyulun/SimEnv/build/uav_simulator/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/uav_utils /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/uav_utils /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uav_simulator/Utils/uav_utils/CMakeFiles/clean_test_results_uav_utils.dir/depend
 
