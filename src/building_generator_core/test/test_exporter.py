@@ -156,6 +156,7 @@ class ExporterTest(unittest.TestCase):
             self.assertLess(right_open[0], 0.0)
             self.assertGreater(abs(left_open[1]), required_offset)
             self.assertGreater(abs(right_open[1]), required_offset)
+            self.assertEqual(elevator_door["motion_duration"], 60.0)
 
     def test_elevator_car_opening_faces_the_lobby_door_side(self) -> None:
         constraints = BuildingConstraints.from_dict(

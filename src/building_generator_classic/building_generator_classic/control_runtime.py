@@ -7,11 +7,13 @@ from typing import Any
 @dataclass
 class DoorState:
     door_id: str
+    kind: str
     model_name: str
     is_open: bool
     closed_pose: list[float]
     open_pose: list[float]
     panel_poses: dict[str, list[float]]
+    motion_duration: float = 0.0
 
 
 @dataclass
@@ -32,6 +34,7 @@ class BuildingControlRuntime:
         self._doors = {
             spec["id"]: DoorState(
                 door_id=spec["id"],
+                kind=str(spec.get("kind", "")),
                 model_name=str(spec.get("model_name", f"dynamic_{spec['id']}")),
                 is_open=bool(spec.get("initial_open", False)),
                 closed_pose=[float(value) for value in spec.get("closed_pose", spec.get("pose", [0, 0, 0, 0, 0, 0]))],
@@ -40,6 +43,7 @@ class BuildingControlRuntime:
                     str(key): [float(value) for value in pose]
                     for key, pose in (spec.get("panel_poses", {}) or {}).items()
                 },
+                motion_duration=max(0.0, float(spec.get("motion_duration", 0.0))),
             )
             for spec in door_specs
         }
@@ -65,17 +69,27 @@ class BuildingControlRuntime:
                 "message": f"unknown door '{door_id}'",
             }
         state = self._doors[door_id]
+        previous_is_open = state.is_open
         state.is_open = bool(open_state)
+        start_suffix = "open" if previous_is_open else "closed"
+        target_suffix = "open" if state.is_open else "closed"
         return {
             "accepted": True,
             "state": "open" if state.is_open else "closed",
             "message": f"door '{door_id}' set to {'open' if state.is_open else 'closed'}",
+            "door_id": state.door_id,
+            "kind": state.kind,
             "model_name": state.model_name,
             "target_pose": state.closed_pose,
             "model_pose": state.closed_pose,
+            "motion_duration": state.motion_duration,
+            "start_panel_poses": {
+                "left_panel": state.panel_poses.get(f"left_{start_suffix}"),
+                "right_panel": state.panel_poses.get(f"right_{start_suffix}"),
+            },
             "panel_poses": {
-                "left_panel": state.panel_poses.get("left_open" if state.is_open else "left_closed"),
-                "right_panel": state.panel_poses.get("right_open" if state.is_open else "right_closed"),
+                "left_panel": state.panel_poses.get(f"left_{target_suffix}"),
+                "right_panel": state.panel_poses.get(f"right_{target_suffix}"),
             },
         }
 

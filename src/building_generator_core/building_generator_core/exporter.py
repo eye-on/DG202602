@@ -735,6 +735,7 @@ def _door_config_entry(door: DoorSpec) -> dict[str, object]:
     if door.kind == "elevator":
         slide_offset = door.width / 2.0 + WALL_THICKNESS / 2.0 + DOOR_PANEL_THICKNESS
         recess_offset = -(WALL_THICKNESS / 2.0 + DOOR_PANEL_THICKNESS / 2.0)
+        payload["motion_duration"] = 60.0
     payload["panel_poses"] = {
         "left_closed": [0.0, -panel_offset, 0.0, 0.0, 0.0, 0.0],
         "right_closed": [0.0, panel_offset, 0.0, 0.0, 0.0, 0.0],

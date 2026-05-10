@@ -9,14 +9,30 @@ from building_generator_classic.control_runtime import BuildingControlRuntime
 class BuildingControlRuntimeTest(unittest.TestCase):
     def test_updates_door_and_elevator_state(self) -> None:
         runtime = BuildingControlRuntime(
-            door_specs=[{"id": "main_entrance", "initial_open": True}],
+            door_specs=[
+                {
+                    "id": "elevator_floor_0",
+                    "kind": "elevator",
+                    "initial_open": True,
+                    "motion_duration": 60.0,
+                    "panel_poses": {
+                        "left_closed": [0.0, -0.35, 0.0, 0.0, 0.0, 0.0],
+                        "left_open": [0.0, -1.2, 0.0, 0.0, 0.0, 0.0],
+                        "right_closed": [0.0, 0.35, 0.0, 0.0, 0.0, 0.0],
+                        "right_open": [0.0, 1.2, 0.0, 0.0, 0.0, 0.0],
+                    },
+                }
+            ],
             elevator_specs=[{"id": "elevator_main", "current_floor": 0, "served_floors": [0, 1, 2]}],
         )
 
-        door_result = runtime.set_door_state("main_entrance", False)
+        door_result = runtime.set_door_state("elevator_floor_0", False)
         elevator_result = runtime.call_elevator("elevator_main", 2, True)
 
         self.assertEqual(door_result["state"], "closed")
+        self.assertEqual(door_result["motion_duration"], 60.0)
+        self.assertEqual(door_result["start_panel_poses"]["left_panel"], [0.0, -1.2, 0.0, 0.0, 0.0, 0.0])
+        self.assertEqual(door_result["panel_poses"]["left_panel"], [0.0, -0.35, 0.0, 0.0, 0.0, 0.0])
         self.assertEqual(elevator_result["current_floor"], 2)
         self.assertEqual(elevator_result["state"], "door_open")
 

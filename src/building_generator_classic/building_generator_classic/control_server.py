@@ -3,9 +3,12 @@ from __future__ import annotations
 import argparse
 import math
 from pathlib import Path
+import time
 
 from building_generator_classic.control_runtime import BuildingControlRuntime
 import yaml
+
+DEFAULT_DOOR_ANIMATION_RATE_HZ = 10.0
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -77,14 +80,23 @@ def _handle_set_door_state(runtime: BuildingControlRuntime, request, response_ty
     result = runtime.set_door_state(request.door_id, request.open)
     if result.get("accepted") and result.get("panel_poses"):
         _apply_model_pose(set_model_state, result["model_name"], result["model_pose"])
-        for link_name, pose_values in result["panel_poses"].items():
-            if pose_values:
-                _apply_link_pose(
-                    set_link_state,
-                    result["model_name"],
-                    link_name,
-                    _compose_world_pose(result["model_pose"], pose_values),
-                )
+        motion_duration = float(result.get("motion_duration", 0.0) or 0.0)
+        if motion_duration > 0.0:
+            _animate_panel_poses(
+                set_link_state,
+                result["model_name"],
+                result["model_pose"],
+                result.get("start_panel_poses", {}) or {},
+                result["panel_poses"],
+                motion_duration,
+            )
+        else:
+            _apply_panel_poses(
+                set_link_state,
+                result["model_name"],
+                result["model_pose"],
+                result["panel_poses"],
+            )
     elif result.get("accepted") and result.get("target_pose"):
         _apply_model_pose(set_model_state, result["model_name"], result["target_pose"])
     return response_type(
@@ -92,6 +104,70 @@ def _handle_set_door_state(runtime: BuildingControlRuntime, request, response_ty
         state=str(result["state"]),
         message=str(result["message"]),
     )
+
+
+def _apply_panel_poses(
+    set_link_state,
+    model_name: str,
+    model_pose: list[float],
+    panel_poses: dict[str, list[float] | None],
+) -> None:
+    for link_name, pose_values in panel_poses.items():
+        if pose_values:
+            _apply_link_pose(
+                set_link_state,
+                model_name,
+                link_name,
+                _compose_world_pose(model_pose, pose_values),
+            )
+
+
+def _animate_panel_poses(
+    set_link_state,
+    model_name: str,
+    model_pose: list[float],
+    start_panel_poses: dict[str, list[float] | None],
+    target_panel_poses: dict[str, list[float] | None],
+    duration: float,
+) -> None:
+    import rospy
+
+    duration = max(0.0, float(duration))
+    if duration <= 0.0:
+        _apply_panel_poses(set_link_state, model_name, model_pose, target_panel_poses)
+        return
+
+    step_count = max(1, int(math.ceil(duration * DEFAULT_DOOR_ANIMATION_RATE_HZ)))
+    step_period = duration / step_count
+    link_names = sorted(target_panel_poses.keys())
+    start_time = time.monotonic()
+    rospy.loginfo("Animating %s door panels over %.1f seconds", model_name, duration)
+
+    for step in range(step_count + 1):
+        if rospy.is_shutdown():
+            return
+        ratio = step / step_count
+        current_poses: dict[str, list[float]] = {}
+        for link_name in link_names:
+            target_pose = target_panel_poses.get(link_name)
+            if not target_pose:
+                continue
+            start_pose = start_panel_poses.get(link_name) or target_pose
+            current_poses[link_name] = _interpolate_pose(start_pose, target_pose, ratio)
+        _apply_panel_poses(set_link_state, model_name, model_pose, current_poses)
+
+        next_time = start_time + (step + 1) * step_period
+        sleep_time = next_time - time.monotonic()
+        if step < step_count and sleep_time > 0.0:
+            rospy.sleep(sleep_time)
+
+
+def _interpolate_pose(start_pose: list[float], target_pose: list[float], ratio: float) -> list[float]:
+    ratio = max(0.0, min(1.0, float(ratio)))
+    return [
+        float(start_value) + (float(target_value) - float(start_value)) * ratio
+        for start_value, target_value in zip(start_pose, target_pose)
+    ]
 
 
 def _apply_model_pose(set_model_state, model_name: str, pose_values: list[float]) -> None:
