@@ -97,4 +97,4 @@ python3 ./src/building_obstacles/scripts/evaluate_danger.py \
 
 ## 文档维护说明
 
-首页只保留选手高频信息。环境参数、规则、接口和评分细节应优先写入 `docs/` 下对应专题文档，再从首页链接过去。
+此文档用于西南技术物理研究所揭榜挂帅赛题，仅用作比赛用途。
