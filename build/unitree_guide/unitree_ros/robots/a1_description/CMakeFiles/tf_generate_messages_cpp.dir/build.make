@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Utility rule file for tf_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ unitree_guide/unitree_ros/robots/a1_description/CMakeFiles/tf_generate_messages_
 .PHONY : unitree_guide/unitree_ros/robots/a1_description/CMakeFiles/tf_generate_messages_cpp.dir/build
 
 unitree_guide/unitree_ros/robots/a1_description/CMakeFiles/tf_generate_messages_cpp.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : unitree_guide/unitree_ros/robots/a1_description/CMakeFiles/tf_generate_messages_cpp.dir/clean
 
 unitree_guide/unitree_ros/robots/a1_description/CMakeFiles/tf_generate_messages_cpp.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/robots/a1_description /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/unitree_guide/unitree_ros/robots/a1_description /ws/SimEnv/build /ws/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description /ws/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_guide/unitree_ros/robots/a1_description/CMakeFiles/tf_generate_messages_cpp.dir/depend
 

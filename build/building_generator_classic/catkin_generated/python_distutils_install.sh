@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_classic"
+echo_and_run cd "/ws/SimEnv/src/building_generator_classic"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/ros/Guoyulun/Competition/SimEnv/install/lib/python3/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/ws/SimEnv/install/lib/python3/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/ros/Guoyulun/Competition/SimEnv/install/lib/python3/dist-packages:/home/ros/Guoyulun/Competition/SimEnv/build/lib/python3/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/ros/Guoyulun/Competition/SimEnv/build" \
+    PYTHONPATH="/ws/SimEnv/install/lib/python3/dist-packages:/ws/SimEnv/build/lib/python3/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/ws/SimEnv/build" \
     "/usr/bin/python3" \
-    "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_classic/setup.py" \
+    "/ws/SimEnv/src/building_generator_classic/setup.py" \
      \
-    build --build-base "/home/ros/Guoyulun/Competition/SimEnv/build/building_generator_classic" \
+    build --build-base "/ws/SimEnv/build/building_generator_classic" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/ros/Guoyulun/Competition/SimEnv/install" --install-scripts="/home/ros/Guoyulun/Competition/SimEnv/install/bin"
+    --install-layout=deb --prefix="/ws/SimEnv/install" --install-scripts="/ws/SimEnv/install/bin"

@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/odom_visualization
+# Install script for directory: /ws/SimEnv/src/uav_simulator/Utils/odom_visualization
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/Competition/SimEnv/install")
+  set(CMAKE_INSTALL_PREFIX "/ws/SimEnv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/odom_visualization/catkin_generated/installspace/odom_visualization.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/ws/SimEnv/build/uav_simulator/Utils/odom_visualization/catkin_generated/installspace/odom_visualization.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/odom_visualization/cmake" TYPE FILE FILES
-    "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/odom_visualization/catkin_generated/installspace/odom_visualizationConfig.cmake"
-    "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/odom_visualization/catkin_generated/installspace/odom_visualizationConfig-version.cmake"
+    "/ws/SimEnv/build/uav_simulator/Utils/odom_visualization/catkin_generated/installspace/odom_visualizationConfig.cmake"
+    "/ws/SimEnv/build/uav_simulator/Utils/odom_visualization/catkin_generated/installspace/odom_visualizationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/odom_visualization" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/odom_visualization/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/odom_visualization" TYPE FILE FILES "/ws/SimEnv/src/uav_simulator/Utils/odom_visualization/package.xml")
 endif()
 

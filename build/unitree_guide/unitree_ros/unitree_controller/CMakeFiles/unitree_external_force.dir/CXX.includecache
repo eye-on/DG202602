@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/external_force.cpp
-ros/ros.h
--
-geometry_msgs/Wrench.h
--
-signal.h
--
-termios.h
--
-stdio.h
--
-
 /opt/ros/noetic/include/geometry_msgs/Vector3.h
 string
 -
@@ -718,5 +706,17 @@ string
 vector
 -
 time.h
+-
+
+/ws/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/external_force.cpp
+ros/ros.h
+-
+geometry_msgs/Wrench.h
+-
+signal.h
+-
+termios.h
+-
+stdio.h
 -
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Utility rule file for controller_manager_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ unitree_guide/unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_
 .PHONY : unitree_guide/unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build
 
 unitree_guide/unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -P CMakeFiles/controller_manager_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -P CMakeFiles/controller_manager_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : unitree_guide/unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/clean
 
 unitree_guide/unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_controller /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/unitree_guide/unitree_ros/unitree_controller /ws/SimEnv/build /ws/SimEnv/build/unitree_guide/unitree_ros/unitree_controller /ws/SimEnv/build/unitree_guide/unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_guide/unitree_ros/unitree_controller/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/depend
 

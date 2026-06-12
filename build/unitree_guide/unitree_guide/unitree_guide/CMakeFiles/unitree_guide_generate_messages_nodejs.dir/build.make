@@ -43,35 +43,35 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Utility rule file for unitree_guide_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs.dir/progress.make
 
-unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs: /home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomPoint.js
-unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs: /home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomMsg.js
+unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs: /ws/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomPoint.js
+unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs: /ws/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomMsg.js
 
 
-/home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomPoint.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomPoint.js: /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg/CustomPoint.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from unitree_guide/CustomPoint.msg"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg/CustomPoint.msg -Iunitree_guide:/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p unitree_guide -o /home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg
+/ws/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomPoint.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/ws/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomPoint.js: /ws/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg/CustomPoint.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ws/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from unitree_guide/CustomPoint.msg"
+	cd /ws/SimEnv/build/unitree_guide/unitree_guide/unitree_guide && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /ws/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg/CustomPoint.msg -Iunitree_guide:/ws/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p unitree_guide -o /ws/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg
 
-/home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomMsg.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomMsg.js: /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg/CustomMsg.msg
-/home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomMsg.js: /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg/CustomPoint.msg
-/home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomMsg.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from unitree_guide/CustomMsg.msg"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg/CustomMsg.msg -Iunitree_guide:/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p unitree_guide -o /home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg
+/ws/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomMsg.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/ws/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomMsg.js: /ws/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg/CustomMsg.msg
+/ws/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomMsg.js: /ws/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg/CustomPoint.msg
+/ws/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomMsg.js: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ws/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from unitree_guide/CustomMsg.msg"
+	cd /ws/SimEnv/build/unitree_guide/unitree_guide/unitree_guide && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /ws/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg/CustomMsg.msg -Iunitree_guide:/ws/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p unitree_guide -o /ws/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg
 
 unitree_guide_generate_messages_nodejs: unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs
-unitree_guide_generate_messages_nodejs: /home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomPoint.js
-unitree_guide_generate_messages_nodejs: /home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomMsg.js
+unitree_guide_generate_messages_nodejs: /ws/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomPoint.js
+unitree_guide_generate_messages_nodejs: /ws/SimEnv/devel/share/gennodejs/ros/unitree_guide/msg/CustomMsg.js
 unitree_guide_generate_messages_nodejs: unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs.dir/build.make
 
 .PHONY : unitree_guide_generate_messages_nodejs
@@ -82,10 +82,10 @@ unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_mess
 .PHONY : unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs.dir/build
 
 unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide && $(CMAKE_COMMAND) -P CMakeFiles/unitree_guide_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/unitree_guide/unitree_guide/unitree_guide && $(CMAKE_COMMAND) -P CMakeFiles/unitree_guide_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs.dir/clean
 
 unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/unitree_guide/unitree_guide/unitree_guide /ws/SimEnv/build /ws/SimEnv/build/unitree_guide/unitree_guide/unitree_guide /ws/SimEnv/build/unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_generate_messages_nodejs.dir/depend
 

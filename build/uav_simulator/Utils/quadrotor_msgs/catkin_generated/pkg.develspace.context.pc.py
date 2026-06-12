@@ -1,8 +1,8 @@
 # generated from catkin/cmake/template/pkg.context.pc.in
 CATKIN_PACKAGE_PREFIX = ""
-PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/ros/Guoyulun/Competition/SimEnv/devel/include".split(';') if "/home/ros/Guoyulun/Competition/SimEnv/devel/include" != "" else []
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/ws/SimEnv/devel/include".split(';') if "/ws/SimEnv/devel/include" != "" else []
 PROJECT_CATKIN_DEPENDS = "message_runtime".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lencode_msgs;-ldecode_msgs".split(';') if "-lencode_msgs;-ldecode_msgs" != "" else []
 PROJECT_NAME = "quadrotor_msgs"
-PROJECT_SPACE_DIR = "/home/ros/Guoyulun/Competition/SimEnv/devel"
+PROJECT_SPACE_DIR = "/ws/SimEnv/devel"
 PROJECT_VERSION = "0.0.0"

@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/Competition/SimEnv/devel
+prefix=/ws/SimEnv/devel
 
 Name: odom_visualization
 Description: Description of odom_visualization

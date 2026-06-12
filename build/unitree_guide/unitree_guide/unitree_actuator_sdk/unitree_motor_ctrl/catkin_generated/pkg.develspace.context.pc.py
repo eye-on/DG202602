@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "unitree_motor_ctrl"
-PROJECT_SPACE_DIR = "/home/ros/Guoyulun/Competition/SimEnv/devel"
+PROJECT_SPACE_DIR = "/ws/SimEnv/devel"
 PROJECT_VERSION = "0.0.0"

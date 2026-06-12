@@ -48,7 +48,7 @@ And add the following 4 lines at the end:
 ```
 auto enx000ec6612921
 iface enx000ec6612921 inet static
-address 192.168.123.162
+address 127.0.0.1
 netmask 255.255.255.0
 ```
 Where the port name have to be changed to your own.

@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 #ifdef ROBOT_TYPE_Go1
-IOSDK::IOSDK():_safe(UNITREE_LEGGED_SDK::LeggedType::Aliengo), _udp(UNITREE_LEGGED_SDK::LOWLEVEL, 8090, "192.168.123.10", 8007){
+IOSDK::IOSDK():_safe(UNITREE_LEGGED_SDK::LeggedType::Aliengo), _udp(UNITREE_LEGGED_SDK::LOWLEVEL, 8090, "127.0.0.1", 8007){
     std::cout << "The control interface for real robot" << std::endl;
     _udp.InitCmdData(_lowCmd);
     cmdPanel = new WirelessHandle();

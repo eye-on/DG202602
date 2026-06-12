@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/Guoyulun/Competition/SimEnv/src
+# Install script for directory: /ws/SimEnv/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/Competition/SimEnv/install")
+  set(CMAKE_INSTALL_PREFIX "/ws/SimEnv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,131 +49,131 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ros/Guoyulun/Competition/SimEnv/install/_setup_util.py")
+   "/ws/SimEnv/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ros/Guoyulun/Competition/SimEnv/install" TYPE PROGRAM FILES "/home/ros/Guoyulun/Competition/SimEnv/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/ws/SimEnv/install" TYPE PROGRAM FILES "/ws/SimEnv/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ros/Guoyulun/Competition/SimEnv/install/env.sh")
+   "/ws/SimEnv/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ros/Guoyulun/Competition/SimEnv/install" TYPE PROGRAM FILES "/home/ros/Guoyulun/Competition/SimEnv/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/ws/SimEnv/install" TYPE PROGRAM FILES "/ws/SimEnv/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ros/Guoyulun/Competition/SimEnv/install/setup.bash;/home/ros/Guoyulun/Competition/SimEnv/install/local_setup.bash")
+   "/ws/SimEnv/install/setup.bash;/ws/SimEnv/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ros/Guoyulun/Competition/SimEnv/install" TYPE FILE FILES
-    "/home/ros/Guoyulun/Competition/SimEnv/build/catkin_generated/installspace/setup.bash"
-    "/home/ros/Guoyulun/Competition/SimEnv/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/ws/SimEnv/install" TYPE FILE FILES
+    "/ws/SimEnv/build/catkin_generated/installspace/setup.bash"
+    "/ws/SimEnv/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ros/Guoyulun/Competition/SimEnv/install/setup.sh;/home/ros/Guoyulun/Competition/SimEnv/install/local_setup.sh")
+   "/ws/SimEnv/install/setup.sh;/ws/SimEnv/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ros/Guoyulun/Competition/SimEnv/install" TYPE FILE FILES
-    "/home/ros/Guoyulun/Competition/SimEnv/build/catkin_generated/installspace/setup.sh"
-    "/home/ros/Guoyulun/Competition/SimEnv/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/ws/SimEnv/install" TYPE FILE FILES
+    "/ws/SimEnv/build/catkin_generated/installspace/setup.sh"
+    "/ws/SimEnv/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ros/Guoyulun/Competition/SimEnv/install/setup.zsh;/home/ros/Guoyulun/Competition/SimEnv/install/local_setup.zsh")
+   "/ws/SimEnv/install/setup.zsh;/ws/SimEnv/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ros/Guoyulun/Competition/SimEnv/install" TYPE FILE FILES
-    "/home/ros/Guoyulun/Competition/SimEnv/build/catkin_generated/installspace/setup.zsh"
-    "/home/ros/Guoyulun/Competition/SimEnv/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/ws/SimEnv/install" TYPE FILE FILES
+    "/ws/SimEnv/build/catkin_generated/installspace/setup.zsh"
+    "/ws/SimEnv/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ros/Guoyulun/Competition/SimEnv/install/setup.fish;/home/ros/Guoyulun/Competition/SimEnv/install/local_setup.fish")
+   "/ws/SimEnv/install/setup.fish;/ws/SimEnv/install/local_setup.fish")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ros/Guoyulun/Competition/SimEnv/install" TYPE FILE FILES
-    "/home/ros/Guoyulun/Competition/SimEnv/build/catkin_generated/installspace/setup.fish"
-    "/home/ros/Guoyulun/Competition/SimEnv/build/catkin_generated/installspace/local_setup.fish"
+file(INSTALL DESTINATION "/ws/SimEnv/install" TYPE FILE FILES
+    "/ws/SimEnv/build/catkin_generated/installspace/setup.fish"
+    "/ws/SimEnv/build/catkin_generated/installspace/local_setup.fish"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/ros/Guoyulun/Competition/SimEnv/install/.rosinstall")
+   "/ws/SimEnv/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/ros/Guoyulun/Competition/SimEnv/install" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/ws/SimEnv/install" TYPE FILE FILES "/ws/SimEnv/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/gtest/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/building_generator_interfaces/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/quadrotor_msgs/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/cmake_utils/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/map_generator/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/pose_utils/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/building_generator_classic/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/Mid360_imu_sim/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/odom_visualization/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/local_sensing/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/mockamap/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/so3_control/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/multi_map_server/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/uav_utils/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/so3_quadrotor_simulator/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_msgs/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_legged_control/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_real/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/rviz_plugins/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_gazebo/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_move_base/cmake_install.cmake")
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/waypoint_generator/cmake_install.cmake")
+  include("/ws/SimEnv/build/gtest/cmake_install.cmake")
+  include("/ws/SimEnv/build/building_generator_core/cmake_install.cmake")
+  include("/ws/SimEnv/build/building_generator_interfaces/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/Utils/quadrotor_msgs/cmake_install.cmake")
+  include("/ws/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/cmake_install.cmake")
+  include("/ws/SimEnv/build/unitree_guide/unitree_ros/robots/a1_description/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/Utils/cmake_utils/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/map_generator/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/Utils/pose_utils/cmake_install.cmake")
+  include("/ws/SimEnv/build/building_obstacles/cmake_install.cmake")
+  include("/ws/SimEnv/build/building_generator_classic/cmake_install.cmake")
+  include("/ws/SimEnv/build/Mid360_imu_sim/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/Utils/odom_visualization/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/local_sensing/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/mockamap/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/so3_control/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/Utils/multi_map_server/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/Utils/uav_utils/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/so3_quadrotor_simulator/cmake_install.cmake")
+  include("/ws/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_msgs/cmake_install.cmake")
+  include("/ws/SimEnv/build/unitree_guide/unitree_ros/unitree_legged_control/cmake_install.cmake")
+  include("/ws/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_real/cmake_install.cmake")
+  include("/ws/SimEnv/build/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/Utils/rviz_plugins/cmake_install.cmake")
+  include("/ws/SimEnv/build/unitree_guide/unitree_ros/unitree_controller/cmake_install.cmake")
+  include("/ws/SimEnv/build/unitree_guide/unitree_ros/unitree_gazebo/cmake_install.cmake")
+  include("/ws/SimEnv/build/unitree_guide/unitree_guide/unitree_guide/cmake_install.cmake")
+  include("/ws/SimEnv/build/unitree_guide/unitree_guide/unitree_move_base/cmake_install.cmake")
+  include("/ws/SimEnv/build/uav_simulator/Utils/waypoint_generator/cmake_install.cmake")
 
 endif()
 
@@ -185,5 +185,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ros/Guoyulun/Competition/SimEnv/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/ws/SimEnv/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/unitree_motor_ctrl/LSerial.h
+/ws/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/unitree_motor_ctrl/LSerial.h
 motor_ctrl.h
-/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/unitree_motor_ctrl/motor_ctrl.h
+/ws/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/unitree_motor_ctrl/motor_ctrl.h
 windows.h
 -
 
-/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/unitree_motor_ctrl/motor_ctrl.h
+/ws/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/unitree_motor_ctrl/motor_ctrl.h
 motor_msg.h
-/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/unitree_motor_ctrl/motor_msg.h
+/ws/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/unitree_motor_ctrl/motor_msg.h
 stdint.h
 -
 
-/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/unitree_motor_ctrl/motor_msg.h
+/ws/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/unitree_motor_ctrl/motor_msg.h
 stdint.h
 -
 
-/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/src/check.cpp
+/ws/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/src/check.cpp
 stdio.h
 -
 errno.h
@@ -34,7 +34,7 @@ unistd.h
 sys/time.h
 -
 LSerial.h
-/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/src/LSerial.h
+/ws/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/src/LSerial.h
 motor_ctrl.h
-/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/src/motor_ctrl.h
+/ws/SimEnv/src/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/src/motor_ctrl.h
 

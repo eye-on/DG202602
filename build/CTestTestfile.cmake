@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/ros/Guoyulun/Competition/SimEnv/src
-# Build directory: /home/ros/Guoyulun/Competition/SimEnv/build
+# Source directory: /ws/SimEnv/src
+# Build directory: /ws/SimEnv/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

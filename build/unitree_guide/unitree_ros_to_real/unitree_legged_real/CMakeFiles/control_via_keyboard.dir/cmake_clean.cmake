@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_legged_real/control_via_keyboard"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_legged_real/control_via_keyboard.pdb"
+  "/ws/SimEnv/devel/lib/unitree_legged_real/control_via_keyboard"
+  "/ws/SimEnv/devel/lib/unitree_legged_real/control_via_keyboard.pdb"
   "CMakeFiles/control_via_keyboard.dir/src/exe/control_via_keyboard.cpp.o"
 )
 

@@ -18,11 +18,11 @@ namespace FDSC
 {
     const int sendPortLow = 8007; // UDP Low server port
     const int sendPortHigh = 8082; // UDP HIGH server port
-    const std::string localIpWifi = "192.168.12.222"; // Your PC wifi will give by the DHCP
-    const std::string localIpEth = "192.168.123.12"; // Your PC
-    const std::string addrWifi = "192.168.12.1"; // wifi pi
-    const std::string addrLow = "192.168.123.10"; // Nano can't connect
-    const std::string addrHigh = "192.168.123.161"; // Pi wired IP
+    const std::string localIpWifi = "127.0.0.1"; // Your PC wifi will give by the DHCP
+    const std::string localIpEth = "127.0.0.1"; // Container-local
+    const std::string addrWifi = "127.0.0.1"; // Container-local
+    const std::string addrLow = "127.0.0.1"; // Container-local
+    const std::string addrHigh = "127.0.0.1"; // Container-local
     const std::string sim_addr = "127.0.0.1"; // Local
 
     class UnitreeConnection

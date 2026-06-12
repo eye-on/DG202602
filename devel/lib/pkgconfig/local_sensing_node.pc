@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/Competition/SimEnv/devel
+prefix=/ws/SimEnv/devel
 
 Name: local_sensing_node
 Description: Description of local_sensing_node

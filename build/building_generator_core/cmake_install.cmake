@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/Guoyulun/Competition/SimEnv/src/building_generator_core
+# Install script for directory: /ws/SimEnv/src/building_generator_core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/Competition/SimEnv/install")
+  set(CMAKE_INSTALL_PREFIX "/ws/SimEnv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core/catkin_generated/safe_execute_install.cmake")
+  include("/ws/SimEnv/build/building_generator_core/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core/catkin_generated/installspace/building_generator_core.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/ws/SimEnv/build/building_generator_core/catkin_generated/installspace/building_generator_core.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/building_generator_core/cmake" TYPE FILE FILES
-    "/home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core/catkin_generated/installspace/building_generator_coreConfig.cmake"
-    "/home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core/catkin_generated/installspace/building_generator_coreConfig-version.cmake"
+    "/ws/SimEnv/build/building_generator_core/catkin_generated/installspace/building_generator_coreConfig.cmake"
+    "/ws/SimEnv/build/building_generator_core/catkin_generated/installspace/building_generator_coreConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/building_generator_core" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_core/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/building_generator_core" TYPE FILE FILES "/ws/SimEnv/src/building_generator_core/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/building_generator_core" TYPE PROGRAM FILES "/home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core/catkin_generated/installspace/building_generator_cli")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/building_generator_core" TYPE PROGRAM FILES "/ws/SimEnv/build/building_generator_core/catkin_generated/installspace/building_generator_cli")
 endif()
 

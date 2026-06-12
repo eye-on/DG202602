@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/odom_visualization/odom_visualization"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/odom_visualization/odom_visualization.pdb"
+  "/ws/SimEnv/devel/lib/odom_visualization/odom_visualization"
+  "/ws/SimEnv/devel/lib/odom_visualization/odom_visualization.pdb"
   "CMakeFiles/odom_visualization.dir/src/odom_visualization.cpp.o"
 )
 

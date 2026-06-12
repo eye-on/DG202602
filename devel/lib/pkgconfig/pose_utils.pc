@@ -1,8 +1,8 @@
-prefix=/home/ros/Guoyulun/Competition/SimEnv/devel
+prefix=/ws/SimEnv/devel
 
 Name: pose_utils
 Description: Description of pose_utils
 Version: 0.0.0
-Cflags: -I/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/pose_utils/include
+Cflags: -I/ws/SimEnv/src/uav_simulator/Utils/pose_utils/include
 Libs: -L${prefix}/lib -lpose_utils
 Requires: 

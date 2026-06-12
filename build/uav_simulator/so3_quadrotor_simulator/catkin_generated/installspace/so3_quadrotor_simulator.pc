@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/Competition/SimEnv/install
+prefix=/ws/SimEnv/install
 
 Name: so3_quadrotor_simulator
 Description: Description of so3_quadrotor_simulator

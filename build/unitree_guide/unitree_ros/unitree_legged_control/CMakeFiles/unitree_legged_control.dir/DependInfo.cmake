@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_legged_control/src/joint_controller.cpp" "/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/joint_controller.cpp.o"
-  "/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_legged_control/src/unitree_joint_control_tool.cpp" "/home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/unitree_joint_control_tool.cpp.o"
+  "/ws/SimEnv/src/unitree_guide/unitree_ros/unitree_legged_control/src/joint_controller.cpp" "/ws/SimEnv/build/unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/joint_controller.cpp.o"
+  "/ws/SimEnv/src/unitree_guide/unitree_ros/unitree_legged_control/src/unitree_joint_control_tool.cpp" "/ws/SimEnv/build/unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/unitree_joint_control_tool.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,8 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_legged_control/include"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/include"
+  "/ws/SimEnv/src/unitree_guide/unitree_ros/unitree_legged_control/include"
+  "/ws/SimEnv/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.14)
 project(unitree_guide)
-# 添加 torch 依赖，默认使用 /home/ros/Guoyulun/Download/libtorch（如不同，请提供正确路径）
+# 添加 torch 依赖，默认使用 /opt/libtorch（如不同，请提供正确路径）
 # 确保 CMake 可以加载 libtorch 附带的 cmake 模块（例如 CheckLinkerFlag）
-list(APPEND CMAKE_MODULE_PATH "/home/ros/Guoyulun/Download/libtorch/share/cmake/Caffe2/public")
-list(APPEND CMAKE_MODULE_PATH "/home/ros/Guoyulun/Download/libtorch/share/cmake")
-find_package(Torch REQUIRED PATHS "/home/ros/Guoyulun/Download/libtorch")
+list(APPEND CMAKE_MODULE_PATH "/opt/libtorch/share/cmake/Caffe2/public")
+list(APPEND CMAKE_MODULE_PATH "/opt/libtorch/share/cmake")
+find_package(Torch REQUIRED PATHS "/opt/libtorch")
 
 set(ROBOT_TYPE A1)         # The type of robot, support Go1 and A1 currently
 set(PLATFORM amd64)         # The platform to compile, support amd64 and arm64
@@ -147,6 +147,11 @@ file(GLOB_RECURSE SRC_LIST
 set(CMAKE_CUDA_COMPILER /usr/local/cuda/bin/nvcc)  # torch 编译加速
 set(CMAKE_CXX_STANDARD 17) #torch编译加速
 
+find_library(LCM_LIBRARY NAMES lcm PATHS /usr/lib/x86_64-linux-gnu /usr/lib)
+if(NOT LCM_LIBRARY)
+    message(FATAL_ERROR "LCM library not found")
+endif()
+
 
 add_executable(state_from_gazebo src/state_from_gazebo.cpp)
 target_link_libraries(state_from_gazebo ${catkin_LIBRARIES})
@@ -173,7 +178,7 @@ if(REAL_ROBOT)
             target_link_libraries(junior_ctrl libunitree_legged_sdk.a)
     endif()
 endif()
-target_link_libraries(junior_ctrl -pthread lcm)
+target_link_libraries(junior_ctrl -pthread ${LCM_LIBRARY})
 if(NOT CATKIN_MAKE)
     set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 endif()

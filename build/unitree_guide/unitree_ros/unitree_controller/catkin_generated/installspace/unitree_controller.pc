@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/Competition/SimEnv/install
+prefix=/ws/SimEnv/install
 
 Name: unitree_controller
 Description: Description of unitree_controller

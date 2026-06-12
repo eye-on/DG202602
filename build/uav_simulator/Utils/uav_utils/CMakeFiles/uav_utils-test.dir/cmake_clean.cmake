@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/uav_utils/uav_utils-test"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/uav_utils/uav_utils-test.pdb"
+  "/ws/SimEnv/devel/lib/uav_utils/uav_utils-test"
+  "/ws/SimEnv/devel/lib/uav_utils/uav_utils-test.pdb"
   "CMakeFiles/uav_utils-test.dir/src/uav_utils_test.cpp.o"
 )
 

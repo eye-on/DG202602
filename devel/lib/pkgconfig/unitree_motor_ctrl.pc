@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/Competition/SimEnv/devel
+prefix=/ws/SimEnv/devel
 
 Name: unitree_motor_ctrl
 Description: Description of unitree_motor_ctrl

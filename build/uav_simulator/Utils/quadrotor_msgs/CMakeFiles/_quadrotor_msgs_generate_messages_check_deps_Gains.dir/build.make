@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Utility rule file for _quadrotor_msgs_generate_messages_check_deps_Gains.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
 include uav_simulator/Utils/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains.dir/progress.make
 
 uav_simulator/Utils/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/quadrotor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/quadrotor_msgs/msg/Gains.msg 
+	cd /ws/SimEnv/build/uav_simulator/Utils/quadrotor_msgs && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py quadrotor_msgs /ws/SimEnv/src/uav_simulator/Utils/quadrotor_msgs/msg/Gains.msg 
 
 _quadrotor_msgs_generate_messages_check_deps_Gains: uav_simulator/Utils/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains
 _quadrotor_msgs_generate_messages_check_deps_Gains: uav_simulator/Utils/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains.dir/build.make
@@ -67,10 +67,10 @@ uav_simulator/Utils/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_
 .PHONY : uav_simulator/Utils/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains.dir/build
 
 uav_simulator/Utils/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/quadrotor_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/uav_simulator/Utils/quadrotor_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains.dir/cmake_clean.cmake
 .PHONY : uav_simulator/Utils/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains.dir/clean
 
 uav_simulator/Utils/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/quadrotor_msgs /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/quadrotor_msgs /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/uav_simulator/Utils/quadrotor_msgs /ws/SimEnv/build /ws/SimEnv/build/uav_simulator/Utils/quadrotor_msgs /ws/SimEnv/build/uav_simulator/Utils/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uav_simulator/Utils/quadrotor_msgs/CMakeFiles/_quadrotor_msgs_generate_messages_check_deps_Gains.dir/depend
 

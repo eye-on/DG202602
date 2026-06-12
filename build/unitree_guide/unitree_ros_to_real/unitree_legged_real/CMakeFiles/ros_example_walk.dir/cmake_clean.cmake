@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_legged_real/ros_example_walk"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_legged_real/ros_example_walk.pdb"
+  "/ws/SimEnv/devel/lib/unitree_legged_real/ros_example_walk"
+  "/ws/SimEnv/devel/lib/unitree_legged_real/ros_example_walk.pdb"
   "CMakeFiles/ros_example_walk.dir/src/exe/example_walk.cpp.o"
 )
 

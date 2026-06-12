@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Utility rule file for unitree_guide_geneus.
 
@@ -63,10 +63,10 @@ unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_geneus.dir/bu
 .PHONY : unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_geneus.dir/build
 
 unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_geneus.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide && $(CMAKE_COMMAND) -P CMakeFiles/unitree_guide_geneus.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/unitree_guide/unitree_guide/unitree_guide && $(CMAKE_COMMAND) -P CMakeFiles/unitree_guide_geneus.dir/cmake_clean.cmake
 .PHONY : unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_geneus.dir/clean
 
 unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_geneus.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/unitree_guide/unitree_guide/unitree_guide /ws/SimEnv/build /ws/SimEnv/build/unitree_guide/unitree_guide/unitree_guide /ws/SimEnv/build/unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_guide/unitree_guide/unitree_guide/CMakeFiles/unitree_guide_geneus.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/map_generator/random_forest"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/map_generator/random_forest.pdb"
+  "/ws/SimEnv/devel/lib/map_generator/random_forest"
+  "/ws/SimEnv/devel/lib/map_generator/random_forest.pdb"
   "CMakeFiles/random_forest.dir/src/random_forest_sensing.cpp.o"
 )
 

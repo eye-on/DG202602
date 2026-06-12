@@ -19,7 +19,7 @@ if __name__ == '__main__':
     HIGHLEVEL = 0xee
     LOWLEVEL  = 0xff
 
-    udp = sdk.UDP(LOWLEVEL, 8080, "192.168.123.10", 8007)
+    udp = sdk.UDP(LOWLEVEL, 8080, "127.0.0.1", 8007)
     safe = sdk.Safety(sdk.LeggedType.Go1)
     
     cmd = sdk.LowCmd()

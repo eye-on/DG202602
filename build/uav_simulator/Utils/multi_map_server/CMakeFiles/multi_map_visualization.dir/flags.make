@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -O3 -Wall -g
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"multi_map_server\"
 
-CXX_INCLUDES = -I/home/ros/Guoyulun/Competition/SimEnv/devel/include -I/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/multi_map_server/include -I/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/pose_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/ws/SimEnv/devel/include -I/ws/SimEnv/src/uav_simulator/Utils/multi_map_server/include -I/ws/SimEnv/src/uav_simulator/Utils/pose_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

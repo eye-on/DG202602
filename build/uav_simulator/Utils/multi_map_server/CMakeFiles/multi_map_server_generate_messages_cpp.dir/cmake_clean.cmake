@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/include/multi_map_server/MultiOccupancyGrid.h"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/include/multi_map_server/MultiSparseMap3D.h"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/include/multi_map_server/SparseMap3D.h"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/include/multi_map_server/VerticalOccupancyGridList.h"
+  "/ws/SimEnv/devel/include/multi_map_server/MultiOccupancyGrid.h"
+  "/ws/SimEnv/devel/include/multi_map_server/MultiSparseMap3D.h"
+  "/ws/SimEnv/devel/include/multi_map_server/SparseMap3D.h"
+  "/ws/SimEnv/devel/include/multi_map_server/VerticalOccupancyGridList.h"
   "CMakeFiles/multi_map_server_generate_messages_cpp"
 )
 

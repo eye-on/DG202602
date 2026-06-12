@@ -3,5 +3,5 @@
 -DROS_PACKAGE_NAME="rviz_plugins"
 -DROSCONSOLE_BACKEND_LOG4CXX
 -o
-/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/rviz_plugins/src/moc_aerialmap_display.cpp
-/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/rviz_plugins/src/aerialmap_display.h
+/ws/SimEnv/build/uav_simulator/Utils/rviz_plugins/src/moc_aerialmap_display.cpp
+/ws/SimEnv/src/uav_simulator/Utils/rviz_plugins/src/aerialmap_display.h

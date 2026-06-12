@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_legged_real/state_sub"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_legged_real/state_sub.pdb"
+  "/ws/SimEnv/devel/lib/unitree_legged_real/state_sub"
+  "/ws/SimEnv/devel/lib/unitree_legged_real/state_sub.pdb"
   "CMakeFiles/state_sub.dir/src/exe/state_sub.cpp.o"
 )
 

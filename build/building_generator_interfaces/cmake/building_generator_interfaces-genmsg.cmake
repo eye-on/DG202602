@@ -17,14 +17,14 @@ add_custom_target(building_generator_interfaces_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" NAME_WE)
+get_filename_component(_filename "/ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" NAME_WE)
 add_custom_target(_building_generator_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "building_generator_interfaces" "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "building_generator_interfaces" "/ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" ""
 )
 
-get_filename_component(_filename "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" NAME_WE)
+get_filename_component(_filename "/ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" NAME_WE)
 add_custom_target(_building_generator_interfaces_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "building_generator_interfaces" "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "building_generator_interfaces" "/ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" ""
 )
 
 #
@@ -36,13 +36,13 @@ add_custom_target(_building_generator_interfaces_generate_messages_check_deps_${
 
 ### Generating Services
 _generate_srv_cpp(building_generator_interfaces
-  "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv"
+  "/ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/building_generator_interfaces
 )
 _generate_srv_cpp(building_generator_interfaces
-  "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv"
+  "/ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/building_generator_interfaces
@@ -60,9 +60,9 @@ add_custom_target(building_generator_interfaces_generate_messages_cpp
 add_dependencies(building_generator_interfaces_generate_messages building_generator_interfaces_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" NAME_WE)
+get_filename_component(_filename "/ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" NAME_WE)
 add_dependencies(building_generator_interfaces_generate_messages_cpp _building_generator_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" NAME_WE)
+get_filename_component(_filename "/ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" NAME_WE)
 add_dependencies(building_generator_interfaces_generate_messages_cpp _building_generator_interfaces_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -77,13 +77,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS building_generator_interfaces_gener
 
 ### Generating Services
 _generate_srv_eus(building_generator_interfaces
-  "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv"
+  "/ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/building_generator_interfaces
 )
 _generate_srv_eus(building_generator_interfaces
-  "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv"
+  "/ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/building_generator_interfaces
@@ -101,9 +101,9 @@ add_custom_target(building_generator_interfaces_generate_messages_eus
 add_dependencies(building_generator_interfaces_generate_messages building_generator_interfaces_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" NAME_WE)
+get_filename_component(_filename "/ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" NAME_WE)
 add_dependencies(building_generator_interfaces_generate_messages_eus _building_generator_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" NAME_WE)
+get_filename_component(_filename "/ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" NAME_WE)
 add_dependencies(building_generator_interfaces_generate_messages_eus _building_generator_interfaces_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -118,13 +118,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS building_generator_interfaces_gener
 
 ### Generating Services
 _generate_srv_lisp(building_generator_interfaces
-  "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv"
+  "/ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/building_generator_interfaces
 )
 _generate_srv_lisp(building_generator_interfaces
-  "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv"
+  "/ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/building_generator_interfaces
@@ -142,9 +142,9 @@ add_custom_target(building_generator_interfaces_generate_messages_lisp
 add_dependencies(building_generator_interfaces_generate_messages building_generator_interfaces_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" NAME_WE)
+get_filename_component(_filename "/ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" NAME_WE)
 add_dependencies(building_generator_interfaces_generate_messages_lisp _building_generator_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" NAME_WE)
+get_filename_component(_filename "/ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" NAME_WE)
 add_dependencies(building_generator_interfaces_generate_messages_lisp _building_generator_interfaces_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -159,13 +159,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS building_generator_interfaces_gener
 
 ### Generating Services
 _generate_srv_nodejs(building_generator_interfaces
-  "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv"
+  "/ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/building_generator_interfaces
 )
 _generate_srv_nodejs(building_generator_interfaces
-  "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv"
+  "/ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/building_generator_interfaces
@@ -183,9 +183,9 @@ add_custom_target(building_generator_interfaces_generate_messages_nodejs
 add_dependencies(building_generator_interfaces_generate_messages building_generator_interfaces_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" NAME_WE)
+get_filename_component(_filename "/ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" NAME_WE)
 add_dependencies(building_generator_interfaces_generate_messages_nodejs _building_generator_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" NAME_WE)
+get_filename_component(_filename "/ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" NAME_WE)
 add_dependencies(building_generator_interfaces_generate_messages_nodejs _building_generator_interfaces_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -200,13 +200,13 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS building_generator_interfaces_gener
 
 ### Generating Services
 _generate_srv_py(building_generator_interfaces
-  "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv"
+  "/ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/building_generator_interfaces
 )
 _generate_srv_py(building_generator_interfaces
-  "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv"
+  "/ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/building_generator_interfaces
@@ -224,9 +224,9 @@ add_custom_target(building_generator_interfaces_generate_messages_py
 add_dependencies(building_generator_interfaces_generate_messages building_generator_interfaces_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" NAME_WE)
+get_filename_component(_filename "/ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv" NAME_WE)
 add_dependencies(building_generator_interfaces_generate_messages_py _building_generator_interfaces_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" NAME_WE)
+get_filename_component(_filename "/ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv" NAME_WE)
 add_dependencies(building_generator_interfaces_generate_messages_py _building_generator_interfaces_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

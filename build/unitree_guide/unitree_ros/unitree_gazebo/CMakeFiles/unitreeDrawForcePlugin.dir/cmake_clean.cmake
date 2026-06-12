@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitreeDrawForcePlugin.pdb"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitreeDrawForcePlugin.so"
+  "/ws/SimEnv/devel/lib/libunitreeDrawForcePlugin.pdb"
+  "/ws/SimEnv/devel/lib/libunitreeDrawForcePlugin.so"
   "CMakeFiles/unitreeDrawForcePlugin.dir/plugin/draw_force_plugin.cc.o"
 )
 

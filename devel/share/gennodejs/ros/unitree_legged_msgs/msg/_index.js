@@ -1,28 +1,28 @@
 
 "use strict";
 
+let BmsCmd = require('./BmsCmd.js');
+let HighCmd = require('./HighCmd.js');
+let MotorCmd = require('./MotorCmd.js');
+let HighState = require('./HighState.js');
+let Cartesian = require('./Cartesian.js');
+let LowState = require('./LowState.js');
+let MotorState = require('./MotorState.js');
 let LED = require('./LED.js');
 let IMU = require('./IMU.js');
 let LowCmd = require('./LowCmd.js');
-let MotorState = require('./MotorState.js');
-let Cartesian = require('./Cartesian.js');
-let HighCmd = require('./HighCmd.js');
 let BmsState = require('./BmsState.js');
-let HighState = require('./HighState.js');
-let MotorCmd = require('./MotorCmd.js');
-let BmsCmd = require('./BmsCmd.js');
-let LowState = require('./LowState.js');
 
 module.exports = {
+  BmsCmd: BmsCmd,
+  HighCmd: HighCmd,
+  MotorCmd: MotorCmd,
+  HighState: HighState,
+  Cartesian: Cartesian,
+  LowState: LowState,
+  MotorState: MotorState,
   LED: LED,
   IMU: IMU,
   LowCmd: LowCmd,
-  MotorState: MotorState,
-  Cartesian: Cartesian,
-  HighCmd: HighCmd,
   BmsState: BmsState,
-  HighState: HighState,
-  MotorCmd: MotorCmd,
-  BmsCmd: BmsCmd,
-  LowState: LowState,
 };

@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11 -O3 -Wall -g
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"so3_control\"
 
-CXX_INCLUDES = -I/usr/include/eigen3 -I/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/so3_control/include -I/home/ros/Guoyulun/Competition/SimEnv/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/usr/include/eigen3 -I/ws/SimEnv/src/uav_simulator/so3_control/include -I/ws/SimEnv/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

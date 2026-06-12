@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/share/common-lisp/ros/unitree_guide/msg/CustomMsg.lisp"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/share/common-lisp/ros/unitree_guide/msg/CustomPoint.lisp"
+  "/ws/SimEnv/devel/share/common-lisp/ros/unitree_guide/msg/CustomMsg.lisp"
+  "/ws/SimEnv/devel/share/common-lisp/ros/unitree_guide/msg/CustomPoint.lisp"
   "CMakeFiles/unitree_guide_generate_messages_lisp"
 )
 

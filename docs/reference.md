@@ -29,12 +29,12 @@
 - `scipy` 和 `numpy`，用于评估脚本
 - libtorch C++ 版本，用于 Unitree A1 控制器
 
-libtorch 和 CUDA 路径在 `src/unitree_guide/unitree_guide/unitree_guide/CMakeLists.txt` 中配置。当前工程默认指向 `/home/ros/Guoyulun/Download/libtorch` 和 `/usr/local/cuda/bin/nvcc`，如部署路径不同，需要按实际机器调整。
+libtorch 和 CUDA 路径在 `src/unitree_guide/unitree_guide/unitree_guide/CMakeLists.txt` 中配置。当前工程默认指向 `/opt/libtorch` 和 `/usr/local/cuda/bin/nvcc`，如部署路径不同，需要按实际机器调整。
 
 ## 编译
 
 ```bash
-cd /home/ros/Guoyulun/Competition/SimEnv
+cd /ws/SimEnv
 source /opt/ros/noetic/setup.bash
 catkin_make -j
 source ./devel/setup.bash
@@ -43,7 +43,7 @@ source ./devel/setup.bash
 ## 一键启动
 
 ```bash
-cd /home/ros/Guoyulun/Competition/SimEnv
+cd /ws/SimEnv
 ./auto.sh
 ```
 
@@ -215,7 +215,7 @@ START_BUILDING_CONTROL=1 ./auto.sh
 如需手动启动或重启门/电梯控制服务，可在 Gazebo 场景启动后运行：
 
 ```bash
-cd /home/ros/Guoyulun/Competition/SimEnv
+cd /ws/SimEnv
 source ./devel/setup.bash
 rosrun building_generator_classic building_generator_classic_control \
   --door-config ./generated_building/door_config.yaml \

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/progress.marks
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles 0
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_progress_start /ws/SimEnv/build/CMakeFiles /ws/SimEnv/build/unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/progress.marks
+	cd /ws/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /ws/SimEnv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/clean
+	cd /ws/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/preinstall
+	cd /ws/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/preinstall
+	cd /ws/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/rule:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/rule
+	cd /ws/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/rule
 .PHONY : unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ unitree_motor_ctrl_node: unitree_guide/unitree_guide/unitree_actuator_sdk/unitre
 
 # fast build rule for target.
 unitree_motor_ctrl_node/fast:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/build.make unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/build
+	cd /ws/SimEnv/build && $(MAKE) -f unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/build.make unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/build
 .PHONY : unitree_motor_ctrl_node/fast
 
 src/check.o: src/check.cpp.o
@@ -188,7 +188,7 @@ src/check.o: src/check.cpp.o
 
 # target to build an object file
 src/check.cpp.o:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/build.make unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/src/check.cpp.o
+	cd /ws/SimEnv/build && $(MAKE) -f unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/build.make unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/src/check.cpp.o
 .PHONY : src/check.cpp.o
 
 src/check.i: src/check.cpp.i
@@ -197,7 +197,7 @@ src/check.i: src/check.cpp.i
 
 # target to preprocess a source file
 src/check.cpp.i:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/build.make unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/src/check.cpp.i
+	cd /ws/SimEnv/build && $(MAKE) -f unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/build.make unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/src/check.cpp.i
 .PHONY : src/check.cpp.i
 
 src/check.s: src/check.cpp.s
@@ -206,7 +206,7 @@ src/check.s: src/check.cpp.s
 
 # target to generate assembly for a file
 src/check.cpp.s:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/build.make unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/src/check.cpp.s
+	cd /ws/SimEnv/build && $(MAKE) -f unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/build.make unitree_guide/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/CMakeFiles/unitree_motor_ctrl_node.dir/src/check.cpp.s
 .PHONY : src/check.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

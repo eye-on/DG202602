@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/progress.marks
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_ros/unitree_legged_control/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles 0
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_progress_start /ws/SimEnv/build/CMakeFiles /ws/SimEnv/build/unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/progress.marks
+	cd /ws/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_ros/unitree_legged_control/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /ws/SimEnv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_ros/unitree_legged_control/clean
+	cd /ws/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_ros/unitree_legged_control/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_ros/unitree_legged_control/preinstall
+	cd /ws/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_ros/unitree_legged_control/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_ros/unitree_legged_control/preinstall
+	cd /ws/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_ros/unitree_legged_control/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/rule:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/rule
+	cd /ws/SimEnv/build && $(MAKE) -f CMakeFiles/Makefile2 unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/rule
 .PHONY : unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ unitree_legged_control: unitree_guide/unitree_ros/unitree_legged_control/CMakeFi
 
 # fast build rule for target.
 unitree_legged_control/fast:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build
+	cd /ws/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build
 .PHONY : unitree_legged_control/fast
 
 src/joint_controller.o: src/joint_controller.cpp.o
@@ -188,7 +188,7 @@ src/joint_controller.o: src/joint_controller.cpp.o
 
 # target to build an object file
 src/joint_controller.cpp.o:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/joint_controller.cpp.o
+	cd /ws/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/joint_controller.cpp.o
 .PHONY : src/joint_controller.cpp.o
 
 src/joint_controller.i: src/joint_controller.cpp.i
@@ -197,7 +197,7 @@ src/joint_controller.i: src/joint_controller.cpp.i
 
 # target to preprocess a source file
 src/joint_controller.cpp.i:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/joint_controller.cpp.i
+	cd /ws/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/joint_controller.cpp.i
 .PHONY : src/joint_controller.cpp.i
 
 src/joint_controller.s: src/joint_controller.cpp.s
@@ -206,7 +206,7 @@ src/joint_controller.s: src/joint_controller.cpp.s
 
 # target to generate assembly for a file
 src/joint_controller.cpp.s:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/joint_controller.cpp.s
+	cd /ws/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/joint_controller.cpp.s
 .PHONY : src/joint_controller.cpp.s
 
 src/unitree_joint_control_tool.o: src/unitree_joint_control_tool.cpp.o
@@ -215,7 +215,7 @@ src/unitree_joint_control_tool.o: src/unitree_joint_control_tool.cpp.o
 
 # target to build an object file
 src/unitree_joint_control_tool.cpp.o:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/unitree_joint_control_tool.cpp.o
+	cd /ws/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/unitree_joint_control_tool.cpp.o
 .PHONY : src/unitree_joint_control_tool.cpp.o
 
 src/unitree_joint_control_tool.i: src/unitree_joint_control_tool.cpp.i
@@ -224,7 +224,7 @@ src/unitree_joint_control_tool.i: src/unitree_joint_control_tool.cpp.i
 
 # target to preprocess a source file
 src/unitree_joint_control_tool.cpp.i:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/unitree_joint_control_tool.cpp.i
+	cd /ws/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/unitree_joint_control_tool.cpp.i
 .PHONY : src/unitree_joint_control_tool.cpp.i
 
 src/unitree_joint_control_tool.s: src/unitree_joint_control_tool.cpp.s
@@ -233,7 +233,7 @@ src/unitree_joint_control_tool.s: src/unitree_joint_control_tool.cpp.s
 
 # target to generate assembly for a file
 src/unitree_joint_control_tool.cpp.s:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/unitree_joint_control_tool.cpp.s
+	cd /ws/SimEnv/build && $(MAKE) -f unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/build.make unitree_guide/unitree_ros/unitree_legged_control/CMakeFiles/unitree_legged_control.dir/src/unitree_joint_control_tool.cpp.s
 .PHONY : src/unitree_joint_control_tool.cpp.s
 
 # Help Target
@@ -267,6 +267,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

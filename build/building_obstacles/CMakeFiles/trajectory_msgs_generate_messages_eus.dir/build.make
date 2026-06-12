@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Utility rule file for trajectory_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build: t
 .PHONY : building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
 
 building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles && $(CMAKE_COMMAND) -P CMakeFiles/trajectory_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/building_obstacles && $(CMAKE_COMMAND) -P CMakeFiles/trajectory_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/clean
 
 building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/building_obstacles /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles /home/ros/Guoyulun/Competition/SimEnv/build/building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/building_obstacles /ws/SimEnv/build /ws/SimEnv/build/building_obstacles /ws/SimEnv/build/building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : building_obstacles/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/depend
 

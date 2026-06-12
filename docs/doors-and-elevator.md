@@ -25,7 +25,7 @@
 如需手动启动或重启门/电梯控制服务，可在 Gazebo 场景启动后运行：
 
 ```bash
-cd /home/ros/Guoyulun/Competition/SimEnv
+cd /ws/SimEnv
 source ./devel/setup.bash
 rosrun building_generator_classic building_generator_classic_control \
   --door-config ./generated_building/door_config.yaml \

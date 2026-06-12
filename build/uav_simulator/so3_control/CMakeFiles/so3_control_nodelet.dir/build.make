@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Include any dependencies generated for this target.
 include uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/depend.make
@@ -58,17 +58,17 @@ include uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/progress.ma
 include uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/flags.make
 
 uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o: uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/flags.make
-uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o: /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/so3_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o -c /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp
+uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o: /ws/SimEnv/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o"
+	cd /ws/SimEnv/build/uav_simulator/so3_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o -c /ws/SimEnv/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp
 
 uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.i"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/so3_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp > CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.i
+	cd /ws/SimEnv/build/uav_simulator/so3_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/SimEnv/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp > CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.i
 
 uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.s"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/so3_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp -o CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.s
+	cd /ws/SimEnv/build/uav_simulator/so3_control && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/SimEnv/src/uav_simulator/so3_control/src/so3_control_nodelet.cpp -o CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.s
 
 # Object files for target so3_control_nodelet
 so3_control_nodelet_OBJECTS = \
@@ -77,58 +77,58 @@ so3_control_nodelet_OBJECTS = \
 # External object files for target so3_control_nodelet
 so3_control_nodelet_EXTERNAL_OBJECTS =
 
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/build.make
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /home/ros/Guoyulun/Competition/SimEnv/devel/lib/libencode_msgs.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /home/ros/Guoyulun/Competition/SimEnv/devel/lib/libdecode_msgs.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libtf.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libactionlib.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libtf2.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libnodeletlib.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libbondcpp.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libroslib.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/librospack.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libroscpp.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/librosconsole.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/librostime.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: /home/ros/Guoyulun/Competition/SimEnv/devel/lib/libSO3Control.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so: uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/so3_control && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/so3_control_nodelet.dir/link.txt --verbose=$(VERBOSE)
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/src/so3_control_nodelet.cpp.o
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/build.make
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /ws/SimEnv/devel/lib/libencode_msgs.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /ws/SimEnv/devel/lib/libdecode_msgs.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libtf.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libtf2_ros.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libactionlib.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libmessage_filters.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libtf2.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libnodeletlib.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libbondcpp.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libclass_loader.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libroslib.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/librospack.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libroscpp.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/librosconsole.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/librostime.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /opt/ros/noetic/lib/libcpp_common.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: /ws/SimEnv/devel/lib/libSO3Control.so
+/ws/SimEnv/devel/lib/libso3_control_nodelet.so: uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ws/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /ws/SimEnv/devel/lib/libso3_control_nodelet.so"
+	cd /ws/SimEnv/build/uav_simulator/so3_control && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/so3_control_nodelet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/build: /home/ros/Guoyulun/Competition/SimEnv/devel/lib/libso3_control_nodelet.so
+uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/build: /ws/SimEnv/devel/lib/libso3_control_nodelet.so
 
 .PHONY : uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/build
 
 uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/so3_control && $(CMAKE_COMMAND) -P CMakeFiles/so3_control_nodelet.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/uav_simulator/so3_control && $(CMAKE_COMMAND) -P CMakeFiles/so3_control_nodelet.dir/cmake_clean.cmake
 .PHONY : uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/clean
 
 uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/so3_control /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/so3_control /home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/uav_simulator/so3_control /ws/SimEnv/build /ws/SimEnv/build/uav_simulator/so3_control /ws/SimEnv/build/uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : uav_simulator/so3_control/CMakeFiles/so3_control_nodelet.dir/depend
 

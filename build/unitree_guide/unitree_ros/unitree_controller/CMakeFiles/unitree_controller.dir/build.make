@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Include any dependencies generated for this target.
 include unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/depend.make
@@ -58,17 +58,17 @@ include unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controll
 include unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/flags.make
 
 unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/src/body.cpp.o: unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/flags.make
-unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/src/body.cpp.o: /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/body.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/src/body.cpp.o"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unitree_controller.dir/src/body.cpp.o -c /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/body.cpp
+unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/src/body.cpp.o: /ws/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/body.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/src/body.cpp.o"
+	cd /ws/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unitree_controller.dir/src/body.cpp.o -c /ws/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/body.cpp
 
 unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/src/body.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitree_controller.dir/src/body.cpp.i"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/body.cpp > CMakeFiles/unitree_controller.dir/src/body.cpp.i
+	cd /ws/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/body.cpp > CMakeFiles/unitree_controller.dir/src/body.cpp.i
 
 unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/src/body.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitree_controller.dir/src/body.cpp.s"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/body.cpp -o CMakeFiles/unitree_controller.dir/src/body.cpp.s
+	cd /ws/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/body.cpp -o CMakeFiles/unitree_controller.dir/src/body.cpp.s
 
 # Object files for target unitree_controller
 unitree_controller_OBJECTS = \
@@ -77,69 +77,69 @@ unitree_controller_OBJECTS = \
 # External object files for target unitree_controller
 unitree_controller_EXTERNAL_OBJECTS =
 
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/src/body.cpp.o
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/build.make
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libcontroller_manager.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libjoint_state_controller.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librealtime_tools.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librobot_state_publisher_solver.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libjoint_state_listener.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libkdl_parser.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/liburdf.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librosconsole_bridge.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/liborocos-kdl.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libgazebo_ros_api_plugin.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libgazebo_ros_paths_plugin.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libroslib.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librospack.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libtf.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libactionlib.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libroscpp.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libtf2.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librosconsole.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librostime.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so: unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unitree_controller.dir/link.txt --verbose=$(VERBOSE)
+/ws/SimEnv/devel/lib/libunitree_controller.so: unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/src/body.cpp.o
+/ws/SimEnv/devel/lib/libunitree_controller.so: unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/build.make
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libcontroller_manager.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libjoint_state_controller.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librealtime_tools.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librobot_state_publisher_solver.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libjoint_state_listener.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libkdl_parser.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/liburdf.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libclass_loader.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librosconsole_bridge.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/liborocos-kdl.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libgazebo_ros_api_plugin.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libgazebo_ros_paths_plugin.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libroslib.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librospack.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libtf.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libtf2_ros.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libactionlib.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libmessage_filters.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libroscpp.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libtf2.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librosconsole.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/librostime.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/ws/SimEnv/devel/lib/libunitree_controller.so: /opt/ros/noetic/lib/libcpp_common.so
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/ws/SimEnv/devel/lib/libunitree_controller.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/ws/SimEnv/devel/lib/libunitree_controller.so: unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ws/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /ws/SimEnv/devel/lib/libunitree_controller.so"
+	cd /ws/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unitree_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/build: /home/ros/Guoyulun/Competition/SimEnv/devel/lib/libunitree_controller.so
+unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/build: /ws/SimEnv/devel/lib/libunitree_controller.so
 
 .PHONY : unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/build
 
 unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -P CMakeFiles/unitree_controller.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/unitree_guide/unitree_ros/unitree_controller && $(CMAKE_COMMAND) -P CMakeFiles/unitree_controller.dir/cmake_clean.cmake
 .PHONY : unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/clean
 
 unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_controller /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/unitree_guide/unitree_ros/unitree_controller /ws/SimEnv/build /ws/SimEnv/build/unitree_guide/unitree_ros/unitree_controller /ws/SimEnv/build/unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_guide/unitree_ros/unitree_controller/CMakeFiles/unitree_controller.dir/depend
 

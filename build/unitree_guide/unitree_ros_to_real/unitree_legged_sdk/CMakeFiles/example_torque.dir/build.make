@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Include any dependencies generated for this target.
 include unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/depend.make
@@ -58,17 +58,17 @@ include unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_
 include unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/flags.make
 
 unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/example/example_torque.cpp.o: unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/flags.make
-unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/example/example_torque.cpp.o: /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/example/example_torque.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/example/example_torque.cpp.o"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_torque.dir/example/example_torque.cpp.o -c /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/example/example_torque.cpp
+unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/example/example_torque.cpp.o: /ws/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/example/example_torque.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/example/example_torque.cpp.o"
+	cd /ws/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example_torque.dir/example/example_torque.cpp.o -c /ws/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/example/example_torque.cpp
 
 unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/example/example_torque.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example_torque.dir/example/example_torque.cpp.i"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/example/example_torque.cpp > CMakeFiles/example_torque.dir/example/example_torque.cpp.i
+	cd /ws/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/example/example_torque.cpp > CMakeFiles/example_torque.dir/example/example_torque.cpp.i
 
 unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/example/example_torque.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example_torque.dir/example/example_torque.cpp.s"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/example/example_torque.cpp -o CMakeFiles/example_torque.dir/example/example_torque.cpp.s
+	cd /ws/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/example/example_torque.cpp -o CMakeFiles/example_torque.dir/example/example_torque.cpp.s
 
 # Object files for target example_torque
 example_torque_OBJECTS = \
@@ -80,8 +80,8 @@ example_torque_EXTERNAL_OBJECTS =
 example_torque: unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/example/example_torque.cpp.o
 example_torque: unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/build.make
 example_torque: unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../example_torque"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example_torque.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ws/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../example_torque"
+	cd /ws/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example_torque.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/build: example_torque
@@ -89,10 +89,10 @@ unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.d
 .PHONY : unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/build
 
 unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk && $(CMAKE_COMMAND) -P CMakeFiles/example_torque.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk && $(CMAKE_COMMAND) -P CMakeFiles/example_torque.dir/cmake_clean.cmake
 .PHONY : unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/clean
 
 unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk /home/ros/Guoyulun/Competition/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk /ws/SimEnv/build /ws/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk /ws/SimEnv/build/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : unitree_guide/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/depend
 

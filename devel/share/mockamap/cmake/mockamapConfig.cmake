@@ -67,14 +67,14 @@ set(mockamap_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(mockamap_SOURCE_PREFIX /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/mockamap)
-  set(mockamap_DEVEL_PREFIX /home/ros/Guoyulun/Competition/SimEnv/devel)
+  set(mockamap_SOURCE_PREFIX /ws/SimEnv/src/uav_simulator/mockamap)
+  set(mockamap_DEVEL_PREFIX /ws/SimEnv/devel)
   set(mockamap_INSTALL_PREFIX "")
   set(mockamap_PREFIX ${mockamap_DEVEL_PREFIX})
 else()
   set(mockamap_SOURCE_PREFIX "")
   set(mockamap_DEVEL_PREFIX "")
-  set(mockamap_INSTALL_PREFIX /home/ros/Guoyulun/Competition/SimEnv/install)
+  set(mockamap_INSTALL_PREFIX /ws/SimEnv/install)
   set(mockamap_PREFIX ${mockamap_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(mockamap_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/mockamap/include " STREQUAL " ")
+if(NOT "/ws/SimEnv/src/uav_simulator/mockamap/include " STREQUAL " ")
   set(mockamap_INCLUDE_DIRS "")
-  set(_include_dirs "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/mockamap/include")
+  set(_include_dirs "/ws/SimEnv/src/uav_simulator/mockamap/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/mockamap/include
         message(FATAL_ERROR "Project 'mockamap' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'mockamap' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/mockamap/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'mockamap' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/ws/SimEnv/src/uav_simulator/mockamap/${idir}'.  ${_report}")
     endif()
     _list_append_unique(mockamap_INCLUDE_DIRS ${include})
   endforeach()
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ros/Guoyulun/Competition/SimEnv/devel/lib;/home/ros/Guoyulun/Competition/SimEnv/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /ws/SimEnv/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

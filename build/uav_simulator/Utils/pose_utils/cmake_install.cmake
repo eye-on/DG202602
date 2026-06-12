@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/pose_utils
+# Install script for directory: /ws/SimEnv/src/uav_simulator/Utils/pose_utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/Competition/SimEnv/install")
+  set(CMAKE_INSTALL_PREFIX "/ws/SimEnv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/pose_utils/catkin_generated/installspace/pose_utils.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/ws/SimEnv/build/uav_simulator/Utils/pose_utils/catkin_generated/installspace/pose_utils.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_utils/cmake" TYPE FILE FILES
-    "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/pose_utils/catkin_generated/installspace/pose_utilsConfig.cmake"
-    "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/Utils/pose_utils/catkin_generated/installspace/pose_utilsConfig-version.cmake"
+    "/ws/SimEnv/build/uav_simulator/Utils/pose_utils/catkin_generated/installspace/pose_utilsConfig.cmake"
+    "/ws/SimEnv/build/uav_simulator/Utils/pose_utils/catkin_generated/installspace/pose_utilsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_utils" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/pose_utils/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_utils" TYPE FILE FILES "/ws/SimEnv/src/uav_simulator/Utils/pose_utils/package.xml")
 endif()
 

@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc
-string
--
-gazebo/common/Events.hh
--
-ros/ros.h
--
-ros/advertise_options.h
--
-gazebo/gazebo.hh
--
-gazebo/sensors/sensors.hh
--
-geometry_msgs/WrenchStamped.h
--
-
 /opt/ros/noetic/include/geometry_msgs/Vector3.h
 string
 -
@@ -17699,4 +17683,20 @@ sdf/sdf_config.h
 /usr/include/sdformat-9.10/sdf/sdf_config.h
 
 /usr/include/sdformat-9.10/sdf/system_util.hh
+
+/ws/SimEnv/src/unitree_guide/unitree_ros/unitree_gazebo/plugin/foot_contact_plugin.cc
+string
+-
+gazebo/common/Events.hh
+-
+ros/ros.h
+-
+ros/advertise_options.h
+-
+gazebo/gazebo.hh
+-
+gazebo/sensors/sensors.hh
+-
+geometry_msgs/WrenchStamped.h
+-
 

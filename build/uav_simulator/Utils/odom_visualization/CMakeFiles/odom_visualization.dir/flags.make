@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -Wall -g -O3 -DNDEBUG
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"odom_visualization\"
 
-CXX_INCLUDES = -I/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/odom_visualization/include -I/home/ros/Guoyulun/Competition/SimEnv/devel/include -I/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/pose_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/ws/SimEnv/src/uav_simulator/Utils/odom_visualization/include -I/ws/SimEnv/devel/include -I/ws/SimEnv/src/uav_simulator/Utils/pose_utils/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

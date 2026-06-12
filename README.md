@@ -29,7 +29,7 @@
 ## 启动流程
 
 ```bash
-cd /home/ros/Guoyulun/Competition/SimEnv
+cd /ws/SimEnv
 source /opt/ros/noetic/setup.bash
 catkin_make -j
 source ./devel/setup.bash

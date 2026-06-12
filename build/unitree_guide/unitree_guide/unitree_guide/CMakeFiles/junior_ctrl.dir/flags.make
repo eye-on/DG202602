@@ -6,5 +6,5 @@ CXX_FLAGS =   -O3   -D_GLIBCXX_USE_CXX11_ABI=1 -std=gnu++17
 
 CXX_DEFINES = -DCOMPILE_WITH_ROS -DCOMPILE_WITH_SIMULATION -DROBOT_TYPE_A1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"unitree_guide\" -DRUN_ROS -DUSE_C10D_GLOO -DUSE_C10D_NCCL -DUSE_DISTRIBUTED -DUSE_RPC -DUSE_TENSORPIPE
 
-CXX_INCLUDES = -I/home/ros/Guoyulun/Competition/SimEnv/devel/include -I/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /home/ros/Guoyulun/Download/libtorch/include -isystem /home/ros/Guoyulun/Download/libtorch/include/torch/csrc/api/include -isystem /usr/local/cuda-11.6/include 
+CXX_INCLUDES = -I/ws/SimEnv/devel/include -I/ws/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -isystem /opt/libtorch/include -isystem /opt/libtorch/include/torch/csrc/api/include -isystem /usr/local/cuda/include 
 

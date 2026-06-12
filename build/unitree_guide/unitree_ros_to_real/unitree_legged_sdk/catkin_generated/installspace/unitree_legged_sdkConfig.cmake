@@ -67,14 +67,14 @@ set(unitree_legged_sdk_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(unitree_legged_sdk_SOURCE_PREFIX /home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk)
-  set(unitree_legged_sdk_DEVEL_PREFIX /home/ros/Guoyulun/Competition/SimEnv/devel)
+  set(unitree_legged_sdk_SOURCE_PREFIX /ws/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk)
+  set(unitree_legged_sdk_DEVEL_PREFIX /ws/SimEnv/devel)
   set(unitree_legged_sdk_INSTALL_PREFIX "")
   set(unitree_legged_sdk_PREFIX ${unitree_legged_sdk_DEVEL_PREFIX})
 else()
   set(unitree_legged_sdk_SOURCE_PREFIX "")
   set(unitree_legged_sdk_DEVEL_PREFIX "")
-  set(unitree_legged_sdk_INSTALL_PREFIX /home/ros/Guoyulun/Competition/SimEnv/install)
+  set(unitree_legged_sdk_INSTALL_PREFIX /ws/SimEnv/install)
   set(unitree_legged_sdk_PREFIX ${unitree_legged_sdk_INSTALL_PREFIX})
 endif()
 
@@ -116,7 +116,7 @@ if(NOT "include " STREQUAL " ")
   endforeach()
 endif()
 
-set(libraries "/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/lib/cpp/amd64/libunitree_legged_sdk.a")
+set(libraries "/ws/SimEnv/src/unitree_guide/unitree_ros_to_real/unitree_legged_sdk/lib/cpp/amd64/libunitree_legged_sdk.a")
 foreach(library ${libraries})
   # keep build configuration keywords, generator expressions, target names, and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ros/Guoyulun/Competition/SimEnv/install/lib;/home/ros/Guoyulun/Competition/SimEnv/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /ws/SimEnv/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

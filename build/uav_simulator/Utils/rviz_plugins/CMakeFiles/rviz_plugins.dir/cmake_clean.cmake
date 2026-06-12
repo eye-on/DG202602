@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/librviz_plugins.pdb"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/librviz_plugins.so"
+  "/ws/SimEnv/devel/lib/librviz_plugins.pdb"
+  "/ws/SimEnv/devel/lib/librviz_plugins.so"
   "CMakeFiles/rviz_plugins.dir/src/aerialmap_display.cpp.o"
   "CMakeFiles/rviz_plugins.dir/src/goal_tool.cpp.o"
   "CMakeFiles/rviz_plugins.dir/src/moc_aerialmap_display.cpp.o"

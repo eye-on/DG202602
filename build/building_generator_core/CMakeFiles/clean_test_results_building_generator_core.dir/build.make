@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Utility rule file for clean_test_results_building_generator_core.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
 include building_generator_core/CMakeFiles/clean_test_results_building_generator_core.dir/progress.make
 
 building_generator_core/CMakeFiles/clean_test_results_building_generator_core:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/ros/Guoyulun/Competition/SimEnv/build/test_results/building_generator_core
+	cd /ws/SimEnv/build/building_generator_core && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /ws/SimEnv/build/test_results/building_generator_core
 
 clean_test_results_building_generator_core: building_generator_core/CMakeFiles/clean_test_results_building_generator_core
 clean_test_results_building_generator_core: building_generator_core/CMakeFiles/clean_test_results_building_generator_core.dir/build.make
@@ -67,10 +67,10 @@ building_generator_core/CMakeFiles/clean_test_results_building_generator_core.di
 .PHONY : building_generator_core/CMakeFiles/clean_test_results_building_generator_core.dir/build
 
 building_generator_core/CMakeFiles/clean_test_results_building_generator_core.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_building_generator_core.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/building_generator_core && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_building_generator_core.dir/cmake_clean.cmake
 .PHONY : building_generator_core/CMakeFiles/clean_test_results_building_generator_core.dir/clean
 
 building_generator_core/CMakeFiles/clean_test_results_building_generator_core.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/building_generator_core /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core/CMakeFiles/clean_test_results_building_generator_core.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/building_generator_core /ws/SimEnv/build /ws/SimEnv/build/building_generator_core /ws/SimEnv/build/building_generator_core/CMakeFiles/clean_test_results_building_generator_core.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : building_generator_core/CMakeFiles/clean_test_results_building_generator_core.dir/depend
 

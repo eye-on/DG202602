@@ -6,5 +6,5 @@ CXX_FLAGS =   -O3   -std=gnu++17
 
 CXX_DEFINES = -DCOMPILE_WITH_ROS -DCOMPILE_WITH_SIMULATION -DROBOT_TYPE_A1 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"unitree_guide\" -DRUN_ROS
 
-CXX_INCLUDES = -I/home/ros/Guoyulun/Competition/SimEnv/devel/include -I/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/ws/SimEnv/devel/include -I/ws/SimEnv/src/unitree_guide/unitree_guide/unitree_guide/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

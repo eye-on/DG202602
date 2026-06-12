@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_motor_ctrl/unitree_motor_ctrl_node"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/lib/unitree_motor_ctrl/unitree_motor_ctrl_node.pdb"
+  "/ws/SimEnv/devel/lib/unitree_motor_ctrl/unitree_motor_ctrl_node"
+  "/ws/SimEnv/devel/lib/unitree_motor_ctrl/unitree_motor_ctrl_node.pdb"
   "CMakeFiles/unitree_motor_ctrl_node.dir/src/check.cpp.o"
 )
 

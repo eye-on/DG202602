@@ -6,24 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/Guoyulun/Competition/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/move_publisher.cpp
-ros/ros.h
--
-gazebo_msgs/ModelState.h
--
-gazebo_msgs/SetModelState.h
--
-string
--
-stdio.h
--
-tf/transform_datatypes.h
--
-math.h
--
-iostream
--
-
 /opt/ros/noetic/include/gazebo_msgs/ModelState.h
 string
 -
@@ -1052,5 +1034,23 @@ string
 vector
 -
 time.h
+-
+
+/ws/SimEnv/src/unitree_guide/unitree_ros/unitree_controller/src/move_publisher.cpp
+ros/ros.h
+-
+gazebo_msgs/ModelState.h
+-
+gazebo_msgs/SetModelState.h
+-
+string
+-
+stdio.h
+-
+tf/transform_datatypes.h
+-
+math.h
+-
+iostream
 -
 

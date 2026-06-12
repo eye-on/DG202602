@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Utility rule file for building_generator_interfaces_genlisp.
 
@@ -63,10 +63,10 @@ building_generator_interfaces/CMakeFiles/building_generator_interfaces_genlisp.d
 .PHONY : building_generator_interfaces/CMakeFiles/building_generator_interfaces_genlisp.dir/build
 
 building_generator_interfaces/CMakeFiles/building_generator_interfaces_genlisp.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_interfaces && $(CMAKE_COMMAND) -P CMakeFiles/building_generator_interfaces_genlisp.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/building_generator_interfaces && $(CMAKE_COMMAND) -P CMakeFiles/building_generator_interfaces_genlisp.dir/cmake_clean.cmake
 .PHONY : building_generator_interfaces/CMakeFiles/building_generator_interfaces_genlisp.dir/clean
 
 building_generator_interfaces/CMakeFiles/building_generator_interfaces_genlisp.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_interfaces /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_interfaces/CMakeFiles/building_generator_interfaces_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/building_generator_interfaces /ws/SimEnv/build /ws/SimEnv/build/building_generator_interfaces /ws/SimEnv/build/building_generator_interfaces/CMakeFiles/building_generator_interfaces_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : building_generator_interfaces/CMakeFiles/building_generator_interfaces_genlisp.dir/depend
 

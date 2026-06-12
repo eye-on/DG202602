@@ -1,5 +1,5 @@
 # generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = '/home/ros/Guoyulun/Competition/SimEnv/src'
+source_root_dir = '/ws/SimEnv/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/ros/Guoyulun/Competition/SimEnv/devel;/opt/ros/noetic'.split(';') if '/home/ros/Guoyulun/Competition/SimEnv/devel;/opt/ros/noetic' != '' else []
+underlay_workspaces = '/opt/ros/noetic'.split(';') if '/opt/ros/noetic' != '' else []

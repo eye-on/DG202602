@@ -1,8 +1,8 @@
 # generated from catkin/cmake/template/pkg.context.pc.in
 CATKIN_PACKAGE_PREFIX = ""
-PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/uav_utils/include".split(';') if "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/uav_utils/include" != "" else []
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/ws/SimEnv/src/uav_simulator/Utils/uav_utils/include".split(';') if "/ws/SimEnv/src/uav_simulator/Utils/uav_utils/include" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;rospy".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "uav_utils"
-PROJECT_SPACE_DIR = "/home/ros/Guoyulun/Competition/SimEnv/devel"
+PROJECT_SPACE_DIR = "/ws/SimEnv/devel"
 PROJECT_VERSION = "0.0.0"

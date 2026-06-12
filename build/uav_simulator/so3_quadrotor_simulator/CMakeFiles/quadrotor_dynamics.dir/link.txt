@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -std=c++11 -O3 -Wall -g  -shared -Wl,-soname,libquadrotor_dynamics.so -o /home/ros/Guoyulun/Competition/SimEnv/devel/lib/libquadrotor_dynamics.so CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o   -L/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/Utils/cmake_utils/lib/mosek8 
+/usr/bin/c++ -fPIC -std=c++11 -O3 -Wall -g  -shared -Wl,-soname,libquadrotor_dynamics.so -o /ws/SimEnv/devel/lib/libquadrotor_dynamics.so CMakeFiles/quadrotor_dynamics.dir/src/dynamics/Quadrotor.cpp.o   -L/ws/SimEnv/src/uav_simulator/Utils/cmake_utils/lib/mosek8 

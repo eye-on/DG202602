@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/local_sensing
+# Install script for directory: /ws/SimEnv/src/uav_simulator/local_sensing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/Guoyulun/Competition/SimEnv/install")
+  set(CMAKE_INSTALL_PREFIX "/ws/SimEnv/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/local_sensing/catkin_generated/installspace/local_sensing_node.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/ws/SimEnv/build/uav_simulator/local_sensing/catkin_generated/installspace/local_sensing_node.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/local_sensing_node/cmake" TYPE FILE FILES
-    "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/local_sensing/catkin_generated/installspace/local_sensing_nodeConfig.cmake"
-    "/home/ros/Guoyulun/Competition/SimEnv/build/uav_simulator/local_sensing/catkin_generated/installspace/local_sensing_nodeConfig-version.cmake"
+    "/ws/SimEnv/build/uav_simulator/local_sensing/catkin_generated/installspace/local_sensing_nodeConfig.cmake"
+    "/ws/SimEnv/build/uav_simulator/local_sensing/catkin_generated/installspace/local_sensing_nodeConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/local_sensing_node" TYPE FILE FILES "/home/ros/Guoyulun/Competition/SimEnv/src/uav_simulator/local_sensing/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/local_sensing_node" TYPE FILE FILES "/ws/SimEnv/src/uav_simulator/local_sensing/package.xml")
 endif()
 

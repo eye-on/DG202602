@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/include/building_generator_interfaces/CallElevator.h"
-  "/home/ros/Guoyulun/Competition/SimEnv/devel/include/building_generator_interfaces/SetDoorState.h"
+  "/ws/SimEnv/devel/include/building_generator_interfaces/CallElevator.h"
+  "/ws/SimEnv/devel/include/building_generator_interfaces/SetDoorState.h"
   "CMakeFiles/building_generator_interfaces_generate_messages_cpp"
 )
 

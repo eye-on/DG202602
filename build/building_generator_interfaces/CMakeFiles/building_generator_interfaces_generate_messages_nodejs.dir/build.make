@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Utility rule file for building_generator_interfaces_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs.dir/progress.make
 
-building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs: /home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/CallElevator.js
-building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs: /home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/SetDoorState.js
+building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs: /ws/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/CallElevator.js
+building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs: /ws/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/SetDoorState.js
 
 
-/home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/CallElevator.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/CallElevator.js: /home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from building_generator_interfaces/CallElevator.srv"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_interfaces && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv -p building_generator_interfaces -o /home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv
+/ws/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/CallElevator.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/ws/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/CallElevator.js: /ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ws/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from building_generator_interfaces/CallElevator.srv"
+	cd /ws/SimEnv/build/building_generator_interfaces && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /ws/SimEnv/src/building_generator_interfaces/srv/CallElevator.srv -p building_generator_interfaces -o /ws/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv
 
-/home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/SetDoorState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/SetDoorState.js: /home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Guoyulun/Competition/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from building_generator_interfaces/SetDoorState.srv"
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_interfaces && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv -p building_generator_interfaces -o /home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv
+/ws/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/SetDoorState.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/ws/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/SetDoorState.js: /ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/ws/SimEnv/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from building_generator_interfaces/SetDoorState.srv"
+	cd /ws/SimEnv/build/building_generator_interfaces && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /ws/SimEnv/src/building_generator_interfaces/srv/SetDoorState.srv -p building_generator_interfaces -o /ws/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv
 
 building_generator_interfaces_generate_messages_nodejs: building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs
-building_generator_interfaces_generate_messages_nodejs: /home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/CallElevator.js
-building_generator_interfaces_generate_messages_nodejs: /home/ros/Guoyulun/Competition/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/SetDoorState.js
+building_generator_interfaces_generate_messages_nodejs: /ws/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/CallElevator.js
+building_generator_interfaces_generate_messages_nodejs: /ws/SimEnv/devel/share/gennodejs/ros/building_generator_interfaces/srv/SetDoorState.js
 building_generator_interfaces_generate_messages_nodejs: building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs.dir/build.make
 
 .PHONY : building_generator_interfaces_generate_messages_nodejs
@@ -80,10 +80,10 @@ building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_
 .PHONY : building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs.dir/build
 
 building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_interfaces && $(CMAKE_COMMAND) -P CMakeFiles/building_generator_interfaces_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/building_generator_interfaces && $(CMAKE_COMMAND) -P CMakeFiles/building_generator_interfaces_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs.dir/clean
 
 building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/building_generator_interfaces /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_interfaces /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/building_generator_interfaces /ws/SimEnv/build /ws/SimEnv/build/building_generator_interfaces /ws/SimEnv/build/building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : building_generator_interfaces/CMakeFiles/building_generator_interfaces_generate_messages_nodejs.dir/depend
 

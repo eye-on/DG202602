@@ -1,4 +1,4 @@
-prefix=/home/ros/Guoyulun/Competition/SimEnv/install
+prefix=/ws/SimEnv/install
 
 Name: building_obstacles
 Description: Description of building_obstacles

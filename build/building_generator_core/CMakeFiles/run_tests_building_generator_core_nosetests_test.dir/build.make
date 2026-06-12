@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/Guoyulun/Competition/SimEnv/src
+CMAKE_SOURCE_DIR = /ws/SimEnv/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
+CMAKE_BINARY_DIR = /ws/SimEnv/build
 
 # Utility rule file for run_tests_building_generator_core_nosetests_test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros/Guoyulun/Competition/SimEnv/build
 include building_generator_core/CMakeFiles/run_tests_building_generator_core_nosetests_test.dir/progress.make
 
 building_generator_core/CMakeFiles/run_tests_building_generator_core_nosetests_test:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/ros/Guoyulun/Competition/SimEnv/build/test_results/building_generator_core/nosetests-test.xml "\"/usr/bin/cmake\" -E make_directory /home/ros/Guoyulun/Competition/SimEnv/build/test_results/building_generator_core" "/usr/bin/nosetests3 -P --process-timeout=60 --where=/home/ros/Guoyulun/Competition/SimEnv/src/building_generator_core/test --with-xunit --xunit-file=/home/ros/Guoyulun/Competition/SimEnv/build/test_results/building_generator_core/nosetests-test.xml"
+	cd /ws/SimEnv/build/building_generator_core && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /ws/SimEnv/build/test_results/building_generator_core/nosetests-test.xml "\"/usr/bin/cmake\" -E make_directory /ws/SimEnv/build/test_results/building_generator_core" "/usr/bin/nosetests3 -P --process-timeout=60 --where=/ws/SimEnv/src/building_generator_core/test --with-xunit --xunit-file=/ws/SimEnv/build/test_results/building_generator_core/nosetests-test.xml"
 
 run_tests_building_generator_core_nosetests_test: building_generator_core/CMakeFiles/run_tests_building_generator_core_nosetests_test
 run_tests_building_generator_core_nosetests_test: building_generator_core/CMakeFiles/run_tests_building_generator_core_nosetests_test.dir/build.make
@@ -67,10 +67,10 @@ building_generator_core/CMakeFiles/run_tests_building_generator_core_nosetests_t
 .PHONY : building_generator_core/CMakeFiles/run_tests_building_generator_core_nosetests_test.dir/build
 
 building_generator_core/CMakeFiles/run_tests_building_generator_core_nosetests_test.dir/clean:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_building_generator_core_nosetests_test.dir/cmake_clean.cmake
+	cd /ws/SimEnv/build/building_generator_core && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_building_generator_core_nosetests_test.dir/cmake_clean.cmake
 .PHONY : building_generator_core/CMakeFiles/run_tests_building_generator_core_nosetests_test.dir/clean
 
 building_generator_core/CMakeFiles/run_tests_building_generator_core_nosetests_test.dir/depend:
-	cd /home/ros/Guoyulun/Competition/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Guoyulun/Competition/SimEnv/src /home/ros/Guoyulun/Competition/SimEnv/src/building_generator_core /home/ros/Guoyulun/Competition/SimEnv/build /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core /home/ros/Guoyulun/Competition/SimEnv/build/building_generator_core/CMakeFiles/run_tests_building_generator_core_nosetests_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/SimEnv/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/SimEnv/src /ws/SimEnv/src/building_generator_core /ws/SimEnv/build /ws/SimEnv/build/building_generator_core /ws/SimEnv/build/building_generator_core/CMakeFiles/run_tests_building_generator_core_nosetests_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : building_generator_core/CMakeFiles/run_tests_building_generator_core_nosetests_test.dir/depend
 
