@@ -1,8 +1,0 @@
-prefix=/ws/SimEnv/install
-
-Name: building_generator_classic
-Description: Description of building_generator_classic
-Version: 0.1.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: building_generator_core building_generator_interfaces gazebo_msgs rospy tf

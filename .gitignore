@@ -1,0 +1,6 @@
+build/
+devel/
+install/
+generated_building/
+logs/
+results/

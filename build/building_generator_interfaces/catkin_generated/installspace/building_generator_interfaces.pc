@@ -1,8 +1,0 @@
-prefix=/ws/SimEnv/install
-
-Name: building_generator_interfaces
-Description: Description of building_generator_interfaces
-Version: 0.1.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime

@@ -1,8 +1,0 @@
-prefix=/ws/SimEnv/devel
-
-Name: livox_laser_simulation
-Description: Description of livox_laser_simulation
-Version: 0.0.0
-Cflags: -I/ws/SimEnv/src/Mid360_imu_sim/include
-Libs: -L${prefix}/lib -llivox_laser_simulation
-Requires: tf
