@@ -10,6 +10,7 @@
     <arg name="headless" default="false"/>
     <arg name="debug" default="false"/>
     <arg name="user_debug" default="false"/>
+    <arg name="enable_livox" default="true"/>
 
     <arg name="world_file" default="$(optenv BUILDING_WORLD_FILE)"/>
     <arg name="robot_x" default="$(optenv COMPETITION_ROBOT_X 0.0)"/>
@@ -29,7 +30,8 @@
 
     <param name="robot_description"
            command="$(find xacro)/xacro --inorder '$(arg dollar)$(arg robot_path)/xacro/robot.xacro'
-           DEBUG:=$(arg user_debug)"/>
+           DEBUG:=$(arg user_debug)
+           ENABLE_LIVOX:=$(arg enable_livox)"/>
 
     <node pkg="gazebo_ros" type="spawn_model" name="urdf_spawner" respawn="false" output="screen"
               args="-urdf -z $(arg robot_z) -y $(arg robot_y) -x $(arg robot_x) -Y $(arg robot_yaw) -model $(arg rname)_gazebo -param robot_description -unpause"/>
@@ -62,7 +64,7 @@
         <arg name="rname" value="$(arg rname)"/>
     </include>
 
-    <node pkg="unitree_guide" type="pointcloud2livox.py" name="pointcloud2livox" output="screen">
+    <node if="$(arg enable_livox)" pkg="unitree_guide" type="pointcloud2livox.py" name="pointcloud2livox" output="screen">
         <param name="laser_blind" value="0.5" />
         <param name="min_angle" value="-7"/>
         <param name="max_angle" value="55"/>

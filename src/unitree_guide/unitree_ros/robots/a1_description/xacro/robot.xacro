@@ -3,6 +3,7 @@
 <robot name="a1" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
     <xacro:arg name="DEBUG" default="false"/>
+    <xacro:arg name="ENABLE_LIVOX" default="true"/>
 
     <xacro:include filename="$(find a1_description)/xacro/const.xacro"/>
     <xacro:include filename="$(find a1_description)/xacro/materials.xacro"/>
@@ -124,6 +125,7 @@
     </link>
 
     <!-- livox mid360 -->
+    <xacro:if value="$(arg ENABLE_LIVOX)">
     <!-- 对于本体 -->
     <link name="laser_livox">
             <collision>
@@ -175,6 +177,7 @@
         <child link="livox_imu_link"/>
         <origin rpy="0 0 0" xyz="-0.011 -0.02329 0.04412"/>
     </joint>
+    </xacro:if>
 
     <!--深度相机-->
     <link

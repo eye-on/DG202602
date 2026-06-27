@@ -33,12 +33,10 @@ LivoxOdeMultiRayShape::LivoxOdeMultiRayShape(CollisionPtr _parent)
     dGeomSetCategoryBits((dGeomID) this->raySpaceId, GZ_SENSOR_COLLIDE);
     dGeomSetCollideBits((dGeomID) this->raySpaceId, ~GZ_SENSOR_COLLIDE);
 
-    // These three lines may be unessecary
-    ODELinkPtr pLink =
-        boost::static_pointer_cast<ODELink>(this->collisionParent->GetLink());
-    pLink->SetSpaceId(this->raySpaceId);
-    boost::static_pointer_cast<ODECollision>(this->collisionParent)->SetSpaceId(
-        this->raySpaceId);
+    // Keep the parent link/collision in Gazebo's normal ODE spaces.
+    // Reparenting them into the ray-only space makes the multiray sensor
+    // participate in the robot's collision tree incorrectly and can stall
+    // the physics/update loop.
 }
 
 //////////////////////////////////////////////////

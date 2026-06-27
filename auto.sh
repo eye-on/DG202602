@@ -13,6 +13,7 @@ DANGER_COUNT="${DANGER_COUNT:-3:6}"
 DISTRACTOR_COUNT="${DISTRACTOR_COUNT:-4:8}"
 GUI="${GUI:-true}"
 PAUSED="${PAUSED:-true}"
+ENABLE_LIVOX="${ENABLE_LIVOX:-true}"
 START_CONTROLLER="${START_CONTROLLER:-1}"
 START_VIRTUAL_JOY="${START_VIRTUAL_JOY:-0}"
 CONTROLLER_FOREGROUND="${CONTROLLER_FOREGROUND:-1}"
@@ -87,6 +88,7 @@ echo "Launching Gazebo, Unitree A1 model, sensors, and ROS interfaces..."
 roslaunch unitree_guide multi_floor_gazeboSim.launch \
   gui:="$GUI" \
   paused:="$PAUSED" \
+  enable_livox:="$ENABLE_LIVOX" \
   user_debug:=False \
   rname:=a1 \
   robot_x:="$ROBOT_X" \

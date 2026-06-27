@@ -342,6 +342,7 @@
 
      <!-- gazebo livox mid360 plugins -->
     <xacro:property name="M_PI" value="3.14159"/> 
+    <xacro:if value="$(arg ENABLE_LIVOX)">
     <gazebo reference="laser_livox">
         <sensor type="ray" name="laser_livox">
             <pose>0 0 0 0 0 0</pose>
@@ -405,6 +406,7 @@
         <pose>0 0 0 0 0 0</pose>
     </sensor>
     </gazebo>
+    </xacro:if>
 
     <!-- camera 单目相机插件 -->
     <gazebo reference="front_camera">
