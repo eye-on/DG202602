@@ -172,36 +172,6 @@
         </sensor>
     </gazebo>
 
-    <!-- Visualization of Foot contacts. -->
-    <gazebo reference="FR_foot">
-        <visual>
-            <plugin name="drawForcePlugin" filename="libunitreeDrawForcePlugin.so">
-                <topicName>FR_foot_contact</topicName>
-            </plugin>
-        </visual>
-    </gazebo>
-    <gazebo reference="FL_foot">
-        <visual>
-            <plugin name="drawForcePlugin" filename="libunitreeDrawForcePlugin.so">
-                <topicName>FL_foot_contact</topicName>
-            </plugin>
-        </visual>
-    </gazebo>
-    <gazebo reference="RR_foot">
-        <visual>
-            <plugin name="drawForcePlugin" filename="libunitreeDrawForcePlugin.so">
-                <topicName>RR_foot_contact</topicName>
-            </plugin>
-        </visual>
-    </gazebo>
-    <gazebo reference="RL_foot">
-        <visual>
-            <plugin name="drawForcePlugin" filename="libunitreeDrawForcePlugin.so">
-                <topicName>RL_foot_contact</topicName>
-            </plugin>
-        </visual>
-    </gazebo>
-
     <gazebo reference="base">
         <material>Gazebo/Green</material>
         <turnGravityOff>false</turnGravityOff>
@@ -346,7 +316,7 @@
     <gazebo reference="laser_livox">
         <sensor type="ray" name="laser_livox">
             <pose>0 0 0 0 0 0</pose>
-            <visualize>true</visualize>
+            <visualize>false</visualize>
             <update_rate>10</update_rate>
             <plugin name="gazebo_ros_laser_controller" filename="liblivox_laser_simulation.so">
                             <ray>
@@ -375,7 +345,7 @@
                                     <stddev>0.005</stddev>
                             </noise>
                             </ray>
-            <visualize>true</visualize>
+            <visualize>false</visualize>
                     <samples>24000</samples>
                     <downsample>1</downsample>
                     <csv_file_name>package://a1_description/scan_mode/mid360.csv</csv_file_name>

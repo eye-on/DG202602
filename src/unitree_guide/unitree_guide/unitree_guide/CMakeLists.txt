@@ -147,9 +147,11 @@ file(GLOB_RECURSE SRC_LIST
 set(CMAKE_CUDA_COMPILER /usr/local/cuda/bin/nvcc)  # torch 编译加速
 set(CMAKE_CXX_STANDARD 17) #torch编译加速
 
-find_library(LCM_LIBRARY NAMES lcm PATHS /usr/lib/x86_64-linux-gnu /usr/lib)
-if(NOT LCM_LIBRARY)
-    message(FATAL_ERROR "LCM library not found")
+if(REAL_ROBOT)
+    find_library(LCM_LIBRARY NAMES lcm PATHS /usr/lib/x86_64-linux-gnu /usr/lib)
+    if(NOT LCM_LIBRARY)
+        message(FATAL_ERROR "LCM library not found")
+    endif()
 endif()
 
 
@@ -178,7 +180,10 @@ if(REAL_ROBOT)
             target_link_libraries(junior_ctrl libunitree_legged_sdk.a)
     endif()
 endif()
-target_link_libraries(junior_ctrl -pthread ${LCM_LIBRARY})
+target_link_libraries(junior_ctrl -pthread)
+if(REAL_ROBOT)
+    target_link_libraries(junior_ctrl ${LCM_LIBRARY})
+endif()
 if(NOT CATKIN_MAKE)
     set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 endif()
